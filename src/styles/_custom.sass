@@ -79,31 +79,153 @@ figcaption, table caption
 
   &--1::after
     top: 0px
-    left: -50px
+    left: 0px
     position: absolute
     content: url('../assets/curso/common/bg-1.png')
+
+.bg-primario-p5
+  background-color: $color-primario-p5
+.bg-contenido-a5
+  background-color: $color-acento-contenido-a5
+.bg-secundario-s5
+  background-color: $color-secundario-s5
 
 .bg-img
   background-size: cover
   background-position: left top
   background-repeat: no-repeat
   background-color: $color-secundario-s5
-  @media screen and (min-width: $bp-min-xl)
+  @media screen and (min-width: $bp-min-sm)
     background-color: transparent
     background-image: url('../assets/curso/common/fondo-1.png')
   &--1
     background-color: $color-acento-contenido-a5
-    @media screen and (min-width: $bp-min-xl)
+    @media screen and (min-width: $bp-min-sm)
       background-color: transparent
       background-image: url('../assets/curso/common/fondo-2.png')
+  &--2
+    background-color: $color-secundario-s5
+    @media screen and (min-width: $bp-min-sm)
+      background-color: transparent
+      background-image: url('../assets/curso/common/fondo-3.png')
+  &--3
+    background-color: $color-terciario-t5
+    @media screen and (min-width: $bp-min-sm)
+      background-color: transparent
+      background-image: url('../assets/curso/common/fondo-4.png')
+  &--4
+    background-color: $color-primario-p5
+    @media screen and (min-width: $bp-min-lg)
+      background-color: transparent
+      background-image: url('../assets/curso/common/fondo-5.png')
 
 .bg-audio
-  background: url('../assets/curso/common/bg-audio.png')
+  background-image: url("../assets/curso/common/bg-audio.png")
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  @media (min-width: 992px)
+    background-size: contain
+
+.bg-video
+  background-color: $color-terciario-t5
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  @media screen and (min-width: $bp-min-xl)
+    background: url('../assets/curso/common/bg-video.png')
+
+.bg-cards
+  background: url('../assets/curso/common/bg-card.png')
   background-size: cover
   background-position: center
   background-repeat: no-repeat
   
+.imgw-30
+  width: 30px
+  margin: 0 auto
 .imgw-61
   width: 61px
   margin: 0 auto
+.imgw-104
+  width: 104px
+  margin: 0 auto
+.imgw-315
+  width: 315px
+  margin: 0 auto
  
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: $color-primario-p5
+  border-radius: 5px
+  padding: 8px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -10px
+  width: 60px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 45px
+
+.z-2
+  z-index: 2
+  position: relative
+
+.tabs-a__tab
+  background-color: $color-secundario-s5
+
+.slyder-f
+  align-items: center
+  border-radius: 20px
+
+  &__slyde
+    padding: 10px !important
+
+  .slyder-f__main
+    width: 70%
+
+    @media (min-width: 769px)
+      width: 80%
+    
+.slyder-f__btn
+  height: 46px
+  width: 46px
+  max-width: 46px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 18px
+    color: $white
+  .fa-chevron-right
+    font-size: 18px
+    color: $white
+
+.audifonos
+  position: absolute
+  top: 0
+  left: 0
+  width: 313px
+  height: 100%
+  object-fit: cover
+
+.tarjeta-audio
+  background-color: $white
+  &__texto
+    color: $color-sistema-texto !important
+    font-style: normal !important
+
+  .tarjeta-audio__input input[type=range]
+    background-color: $color-secundario !important
+
+  .audio__btn
+    background-color: $color-acento-botones !important
+
+  &__tiempo
+    color: $color-sistema-texto !important
