@@ -89,6 +89,8 @@ figcaption, table caption
   background-color: $color-acento-contenido-a5
 .bg-secundario-s5
   background-color: $color-secundario-s5
+.bg-terciario-t5
+  background-color: $color-terciario-t5
 
 .bg-img
   background-size: cover
@@ -118,6 +120,11 @@ figcaption, table caption
     @media screen and (min-width: $bp-min-lg)
       background-color: transparent
       background-image: url('../assets/curso/common/fondo-5.png')
+  &--5
+    background-color: $color-primario-p5
+    @media screen and (min-width: $bp-min-sm)
+      background-color: transparent
+      background-image: url('../assets/curso/common/fondo-6.png')
 
 .bg-audio
   background-image: url("../assets/curso/common/bg-audio.png")
@@ -133,10 +140,16 @@ figcaption, table caption
   background-position: center
   background-repeat: no-repeat
   @media screen and (min-width: $bp-min-xl)
-    background: url('../assets/curso/common/bg-video.png')
+    background-image: url('../assets/curso/common/bg-video.png')
 
 .bg-cards
   background: url('../assets/curso/common/bg-card.png')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.bg-slider
+  background: url('../assets/curso/common/bg-slider.png')
   background-size: cover
   background-position: center
   background-repeat: no-repeat
@@ -229,3 +242,23 @@ figcaption, table caption
 
   &__tiempo
     color: $color-sistema-texto !important
+
+.tarjeta-avatar-b__img
+  justify-content: center
+  img
+    width: 91px !important
+
+.tabs-a.custom-tabs
+  .col-lg-4.col-xl-3
+    @media screen and (min-width: $bp-min-lg)
+      width: 43%
+    // @media screen and (min-width: $bp-min-xl)
+    //   width: 55%
+  .col-lg-8.col-xl-9
+    @media screen and (min-width: $bp-min-lg)
+      width: 57%
+    // @media screen and (min-width: $bp-min-xl)
+    //   width: 45%
+
+.accesibilidad
+  z-index: 3

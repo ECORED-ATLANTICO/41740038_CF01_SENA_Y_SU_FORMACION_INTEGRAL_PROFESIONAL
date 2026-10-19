@@ -255,7 +255,7 @@
     .row.justify-content-center.align-items-center.z-2.mb-4
       .col-sm-6.col-lg-4
         figure
-          img(data-aos="fade-down-right", src="@/assets/curso/tema5/18.png", alt="")
+          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema5/18.png", alt="")
       .col-lg-8
         SlyderF(columnas="col-xl-6")
           .tarjeta.p-4.pt-5.bg-cards.shadow-sm
