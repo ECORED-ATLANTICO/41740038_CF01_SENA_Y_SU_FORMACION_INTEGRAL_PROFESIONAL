@@ -1,1 +1,2 @@
-module.exports = 'Titulo del componente formativo'
+module.exports =
+  'Fundamentos institucionales y gestión de información en el SENA'

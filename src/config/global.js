@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'Fundamentos institucionales y gestión de información en el SENA',
+    Description:
+      'Este componente formativo aborda el origen, evolución, naturaleza y organización institucional del SENA; los fundamentos de la Formación Profesional Integral y su relación con el trabajo; el marco normativo y de integridad institucional; la gestión de información y la atención de requerimientos; y los elementos relacionados con calidad, seguimiento y mejora continua.',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.png',
       },
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.png',
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-3.png',
       },
     ],
   },
@@ -31,40 +36,167 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Fundamentos institucionales del SENA',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Origen y evolución histórica',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Naturaleza jurídica y financiación',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Misión, visión y valores',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Estructura y organización institucional',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Procesos institucionales del SENA',
+            hash: 't_1_5',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Formación Profesional Integral',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Naturaleza y concepto',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Principios y características',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Formación y mundo laboral',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Sistema educativo y productivo',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Ciencia, tecnología e innovación',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Normativa e integridad institucional',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Marco normativo del SENA',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Estatuto de Formación Profesional',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Procesos y procedimientos institucionales',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Gestión documental e información',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Códigos de integridad',
+            hash: 't_3_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tema 4',
+        titulo: 'Gestión de información institucional ',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Información y fuentes institucionales',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Sistemas y aplicativos institucionales',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Manejo seguro de información',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Canales y flujos informativos',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Gestión de requerimientos institucionales',
+            hash: 't_4_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Tema 5',
+        titulo: 'Calidad y mejora continua',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Sistema Integrado de Gestión',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Seguimiento, control y evaluación',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Gestión del riesgo institucional',
+            hash: 't_5_3',
+          },
+          {
+            numero: '5.4',
+            titulo: 'Acciones preventivas y correctivas',
+            hash: 't_5_4',
+          },
+          {
+            numero: '5.5',
+            titulo: 'Mejora de procesos institucionales',
+            hash: 't_5_5',
+          },
+        ],
       },
     ],
     subMenu: [
