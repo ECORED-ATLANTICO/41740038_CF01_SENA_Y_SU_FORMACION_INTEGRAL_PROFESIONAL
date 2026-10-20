@@ -287,8 +287,8 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 3.
           span Diagrama de flujo
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/21-mob.svg", alt="Diagrama de flujo del proceso de atención del SENA. Describe secuencialmente 7 pasos de izquierda a derecha: Recepción del requerimiento, Identificación del asunto, Consulta de información, Determinación del responsable, Direccionamiento o gestión, Comunicación de la información, y finaliza con Registro y seguimiento.")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/21.svg", alt="Diagrama de flujo del proceso de atención del SENA. Describe secuencialmente 7 pasos de izquierda a derecha: Recepción del requerimiento, Identificación del asunto, Consulta de información, Determinación del responsable, Direccionamiento o gestión, Comunicación de la información, y finaliza con Registro y seguimiento.")
+        img.mb-4.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/21-mob.svg", alt="Diagrama de flujo del proceso de atención del SENA. Describe secuencialmente 7 pasos de izquierda a derecha: Recepción del requerimiento, Identificación del asunto, Consulta de información, Determinación del responsable, Direccionamiento o gestión, Comunicación de la información, y finaliza con Registro y seguimiento.")
+        img.mb-4.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/21.svg", alt="Diagrama de flujo del proceso de atención del SENA. Describe secuencialmente 7 pasos de izquierda a derecha: Recepción del requerimiento, Identificación del asunto, Consulta de información, Determinación del responsable, Direccionamiento o gestión, Comunicación de la información, y finaliza con Registro y seguimiento.")
 
     .row.justify-content-center.align-items-center.mb-5.z-2
       .col-xl-10

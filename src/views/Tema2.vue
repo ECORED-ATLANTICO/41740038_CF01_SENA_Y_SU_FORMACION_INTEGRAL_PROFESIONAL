@@ -35,7 +35,7 @@
               img.imgw-61(src="@/assets/curso/tema2/3.svg", alt="" data-aos="zoom-in-down")
             .col-lg-11
               p.mb-0 El Estatuto de la Formación Profesional Integral la define como un proceso teórico-práctico orientado al desarrollo de conocimientos técnicos y tecnológicos, así como de actitudes y valores para la convivencia social, de manera que las personas puedan actuar crítica y creativamente en el mundo del trabajo y de la vida. 
-      .col-sm-6.col-lg-3
+      .col-sm-6.col-lg-3.d-none.d-lg-block
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema2/4.png", alt="")
 
@@ -284,7 +284,7 @@
 
     .fullwidth-bg.fullwidth-bg--1
     .row.justify-content-center.align-items-center.mb-4.z-2
-      .col-sm-4.col-lg-2
+      .col-sm-4.col-lg-2.d-none.d-lg-block
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema2/24.png", alt="" data-aos="zoom-in-down")
       .col-lg-9
@@ -359,8 +359,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
           span  Diagrama de relaciones 
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/28-mob.svg", alt="El diagrama ilustra la Formación Profesional Integral con sus tres relaciones principales: sistema educativo, sectores productivos y sociedad y territorios.")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/28.svg", alt="El diagrama ilustra la Formación Profesional Integral con sus tres relaciones principales: sistema educativo, sectores productivos y sociedad y territorios.")
+        img.mb-4.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/28-mob.svg", alt="El diagrama ilustra la Formación Profesional Integral con sus tres relaciones principales: sistema educativo, sectores productivos y sociedad y territorios.")
+        img.mb-4.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/28.svg", alt="El diagrama ilustra la Formación Profesional Integral con sus tres relaciones principales: sistema educativo, sectores productivos y sociedad y territorios.")
 
         p.mb-0 La pertinencia de la Formación Profesional Integral depende de su capacidad para relacionar las necesidades de las personas, los territorios y los sectores productivos con las oportunidades de formación y desarrollo. 
 
@@ -463,9 +463,9 @@
           p.mb-0 Su relación con el mundo laboral permite responder a transformaciones productivas y tecnológicas; su articulación con el sistema educativo, los sectores productivos y los territorios fortalece su pertinencia; y su vínculo con la ciencia, la tecnología y la innovación favorece la actualización y la capacidad de resolver problemas. 
 
     .row.justify-content-center.align-items-center
-      .col-lg-3
-        p Estos elementos permiten avanzar hacia uno de los criterios centrales del resultado de aprendizaje: explicar los aspectos esenciales de la Formación Profesional Integral de acuerdo con la normativa y los procedimientos institucionales. 
-      .col-lg-9
+      .col-xl-3
+        p.mb-4.mb-xl-0 Estos elementos permiten avanzar hacia uno de los criterios centrales del resultado de aprendizaje: explicar los aspectos esenciales de la Formación Profesional Integral de acuerdo con la normativa y los procedimientos institucionales. 
+      .col-xl-9
         .bg-audio.rounded-4
           .row.align-items-center.justify-content-center
             .col-10.col-sm-4
