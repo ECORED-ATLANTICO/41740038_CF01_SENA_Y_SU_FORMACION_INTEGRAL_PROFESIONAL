@@ -157,6 +157,12 @@ figcaption, table caption
 .imgw-30
   width: 30px
   margin: 0 auto
+.imgw-40
+  width: 40px
+  margin: 0 auto
+.imgw-55
+  width: 55px
+  margin: 0 auto
 .imgw-61
   width: 61px
   margin: 0 auto
@@ -177,10 +183,19 @@ figcaption, table caption
   padding: 8px 20px
   display: inline-flex
   align-items: center
+  &.gradiente
+    padding: 12px 20px
+    background: linear-gradient(90deg, rgba(235, 246, 229, 0.98) 0%, rgba(237, 253, 255, 1) 50%, rgba(255, 255, 255, 1) 100%)
+    .titulo-con-imagen__imagen
+      width: 37px
+    .titulo-con-imagen__texto
+      padding-left: 30px
+
 .titulo-con-imagen__imagen
   position: absolute
   left: -10px
   width: 60px
+
 .titulo-con-imagen__texto
   margin: 0
   padding-left: 45px
@@ -262,3 +277,40 @@ figcaption, table caption
 
 .accesibilidad
   z-index: 3
+
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: $color-secundario-s5
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+.barra-avance__boton--regresar span
+  color: $white !important
+
+.linea-tiempo-d__item__content, .linea-tiempo-d__item__number
+  background-color: $color-secundario-s5
+.linea-tiempo-d__item
+  &.linea-tiempo-d__item--selected
+    // .linea-tiempo-d__item__number
+    //   background-color: $color-primario !important
+    .linea-tiempo-d__item__content
+      background-color: $color-primario-p5 !important
+ 
