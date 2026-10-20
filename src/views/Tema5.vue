@@ -7,7 +7,7 @@
         span 5
       h1 Calidad y mejora continua
 
-    img(data-aos="fade-up")(src="@/assets/curso/tema5/1.png", alt="")
+    img(data-aos="fade-up", src="@/assets/curso/tema5/1.png", alt="")
     .row.justify-content-center.z-2
       .col-lg-10.p-4(data-aos="fade-down")
         div.banner-text.shadow.mb-3
@@ -232,7 +232,7 @@
     #t_5_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 5.5 Mejora de procesos institucionales 
 
-    img(data-aos="fade-up")(src="@/assets/curso/tema5/16.png", alt="")
+    img(data-aos="fade-up", src="@/assets/curso/tema5/16.png", alt="")
     .row.justify-content-center.z-2
       .col-lg-10.p-4(data-aos="fade-down")
         div.banner-text.shadow.mb-3
@@ -311,7 +311,6 @@
           img.mb-4.mb-lg-0(src="@/assets/curso/tema5/26.svg", alt="" data-aos="zoom-in-down")
       .col-lg-11
         p.mb-0 Para orientar requerimientos institucionales, estos elementos se traducen en actuaciones concretas: consultar fuentes pertinentes, aplicar procedimientos, verificar la información, reconocer riesgos y direccionar las solicitudes hacia las dependencias competentes. 
-
 
     .row.justify-content-center.z-2
       .col-xl-10

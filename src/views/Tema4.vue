@@ -82,7 +82,7 @@
         .crd_hover_txt
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema4/7.png", alt="")
+              img(src="@/assets/curso/tema4/27.png", alt="")
           .crd_hover_txt--body
             h4.mb-3 Fuente competente 
             p.mb-0 La confiabilidad de una fuente también depende de que corresponda a la dependencia o entidad responsable del asunto. Una información institucional puede ser auténtica, pero no necesariamente ser la fuente competente para resolver todas las consultas. 
@@ -379,14 +379,6 @@
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/26.png", alt="")
     
     p Estos elementos permiten pasar del conocimiento institucional a una actuación concreta: #[strong consultar, verificar, relacionar y direccionar información de acuerdo con la estructura y los procedimientos del SENA.]
-
-
-
-
-
-
-
-
 
 
 </template>

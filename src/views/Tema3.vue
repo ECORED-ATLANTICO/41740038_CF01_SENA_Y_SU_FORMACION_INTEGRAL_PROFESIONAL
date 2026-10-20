@@ -82,7 +82,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
         h3.titulo-con-imagen__texto Jerarquía y aplicación normativa
 
-    img(data-aos="fade-up")(src="@/assets/curso/tema3/4.png", alt="")
+    img(data-aos="fade-up", src="@/assets/curso/tema3/4.png", alt="")
     .row.justify-content-center.z-2
       .col-lg-10.p-4(data-aos="fade-down")
         div.banner-text.shadow.mb-3
@@ -205,7 +205,6 @@
       .row.justify-content-center.align-items-center.z-2
         .col-lg-8.mb-4.mb-lg-0
           SlyderF(columnas="col-xl-6")
-
             .tarjeta.tarjeta--blanca.p-4.pt-5.shadow-sm
               .row.justify-content-center.mb-3
                 .col-6.col-sm-4.col-xl-5
@@ -236,7 +235,7 @@
                   img.imgw-95.mb-2(src='@/assets/curso/tema3/24.svg' alt='')
               h5.mb-2.text-center Ejecute o direccione 
               p.mb-0.text-center Realice la actuación correspondiente o remita el requerimiento a la dependencia competente. 
-        .col-sm-6.col-lg-4
+        .col-sm-6.col-lg-4.d-none.d-lg-block
           figure
             img(data-aos="fade-down-right", src="@/assets/curso/tema3/12.png", alt="")
             
@@ -352,7 +351,7 @@
 
     p.mb-4.z-2 Estas situaciones muestran que la integridad no constituye un contenido separado de la gestión: se refleja en la manera como se aplica la normativa, se utiliza la información y se desarrollan los procedimientos.
 
-    img(data-aos="fade-up")(src="@/assets/curso/tema3/19.png", alt="")
+    img(data-aos="fade-up", src="@/assets/curso/tema3/19.png", alt="")
     .row.justify-content-center.z-2
       .col-lg-10.p-4(data-aos="fade-down")
         div.banner-text.shadow.mb-3
@@ -365,16 +364,6 @@
       .col-lg-11
         p Para orientar requerimientos institucionales resulta, por tanto, necesario integrar estos elementos: #[strong consultar la norma aplicable, identificar el proceso, verificar el procedimiento, utilizar información institucional vigente y actuar con integridad.]
         p.mb-0 Esta articulación responde directamente a los criterios del resultado de aprendizaje relacionados con la aplicación de procedimientos y con la corroboración de fuentes institucionales. 
-
-
-
-
-
-
-
-
-
-
 
 
 </template>
