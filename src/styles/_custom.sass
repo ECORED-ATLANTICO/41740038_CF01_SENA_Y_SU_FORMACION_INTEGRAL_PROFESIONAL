@@ -161,6 +161,9 @@ figcaption, table caption
   @media screen and (min-width: $bp-min-xl)
     background-size: cover
     background-image: url('../assets/curso/common/bg-reflexion.png')
+  &--1
+    background-color: $color-secundario-s10
+    background-image: url('../assets/curso/common/bg-blue.png')
 
 .imgw-30
   width: 30px
@@ -173,6 +176,12 @@ figcaption, table caption
   margin: 0 auto
 .imgw-61
   width: 61px
+  margin: 0 auto
+.imgw-65
+  width: 65px
+  margin: 0 auto
+.imgw-70
+  width: 70px
   margin: 0 auto
 .imgw-104
   width: 104px
@@ -304,7 +313,14 @@ figcaption, table caption
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
     background-color: $color-secundario-s5
+
+    &.bg-contenido-a5
+      background-color: $color-acento-contenido-a5
   
+      @media (max-width: $bp-min-sm)  
+        p
+          font-size: 0.75em
+
   @media (min-width:1200px) and (max-width:1400px)  
     .crd_hover_txt--body
       p

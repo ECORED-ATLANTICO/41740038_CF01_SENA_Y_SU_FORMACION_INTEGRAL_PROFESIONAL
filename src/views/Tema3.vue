@@ -191,7 +191,7 @@
               figure
                 img.mb-4.mb-lg-0(src="@/assets/curso/tema3/11.svg", alt="" data-aos="zoom-in-down")
             .col-lg-11
-              p.mb-0 #[strong Normativa → proceso → procedimiento → actuación institucional]
+              h4.mb-0 Normativa → proceso → procedimiento → actuación institucional
       .col-lg-5
         p.mb-0 La normativa determina qué debe cumplirse; el proceso organiza las actividades y responsabilidades; el procedimiento establece cómo debe realizarse una actuación; y la persona aplica esas orientaciones en una situación concreta.
 
