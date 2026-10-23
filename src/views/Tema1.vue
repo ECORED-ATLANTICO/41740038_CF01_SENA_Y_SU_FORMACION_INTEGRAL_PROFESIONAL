@@ -1065,7 +1065,7 @@
           .tarjeta.bg-cards.p-4.pt-5.shadow-sm
             .row.justify-content-center.mb-3
               .col-6.col-sm-4.col-xl-5
-                img.my-3.imgw-70(src='@/assets/curso/tema1/80.svg' alt='')
+                img.mb-2(src='@/assets/curso/tema1/80.svg' alt='')
             h5.mb-2.text-center Identificar la necesidad
             p.mb-0.text-center Determine el asunto principal del requerimiento. 
           .tarjeta.bg-cards.p-4.pt-5.shadow-sm
@@ -1083,7 +1083,7 @@
           .tarjeta.bg-cards.p-4.pt-5.shadow-sm
             .row.justify-content-center.mb-3
               .col-6.col-sm-4.col-xl-5
-                img.my-3.imgw-70(src='@/assets/curso/tema1/83.svg' alt='')
+                img.mb-2(src='@/assets/curso/tema1/83.svg' alt='')
             h5.mb-2.text-center Consultar el procedimiento
             p.mb-0.text-center Verifique los lineamientos, documentos y sistemas aplicables.
           .tarjeta.bg-cards.p-4.pt-5.shadow-sm
@@ -1095,7 +1095,7 @@
           .tarjeta.bg-cards.p-4.pt-5.shadow-sm
             .row.justify-content-center.mb-3
               .col-6.col-sm-4.col-xl-5
-                img.my-3.imgw-70(src='@/assets/curso/tema1/85.svg' alt='')
+                img.mb-2(src='@/assets/curso/tema1/85.svg' alt='')
             h5.mb-2.text-center Verificar
             p.mb-0.text-center Compruebe que la información y el procedimiento utilizados se encuentren vigentes.
       .col-sm-6.col-lg-4.d-none.d-xl-block
@@ -1127,25 +1127,6 @@
           img.mb-4.mb-lg-0(src="@/assets/curso/tema5/12.svg", alt="" data-aos="zoom-in-down")
       .col-lg-11
         p.mb-0 Esta comprensión constituye una base indispensable para orientar requerimientos institucionales, porque permite relacionar una necesidad con la estructura, los procesos, las fuentes de información y los procedimientos correspondientes. De este modo, el conocimiento institucional deja de ser únicamente descriptivo y se convierte en una herramienta para actuar de manera coherente con la normativa y los lineamientos del SENA. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </template>

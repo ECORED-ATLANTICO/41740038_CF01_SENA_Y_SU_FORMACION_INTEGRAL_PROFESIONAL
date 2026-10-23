@@ -241,14 +241,155 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Acción correctiva',
+      significado:
+        'Medida orientada a intervenir las causas de una situación identificada que afecta el desarrollo adecuado de un proceso, con el propósito de evitar que vuelva a presentarse.',
+    },
+    {
+      termino: 'Acción preventiva',
+      significado:
+        'Medida adoptada para anticipar situaciones que pueden afectar un proceso o resultado y reducir la posibilidad de que ocurran.',
+    },
+    {
+      termino: 'Autocontrol',
+      significado:
+        'Capacidad de verificar las propias actuaciones y responsabilidades para asegurar el cumplimiento de procedimientos, lineamientos y resultados esperados.',
+    },
+    {
+      termino: 'Canal de atención',
+      significado:
+        'Medio institucional utilizado para recibir, tramitar o comunicar información y requerimientos de acuerdo con los procedimientos establecidos.',
+    },
+    {
+      termino: 'Estructura organizacional',
+      significado:
+        'Forma en que se distribuyen los niveles, dependencias, funciones y responsabilidades dentro de una entidad para desarrollar su gestión.',
+    },
+    {
+      termino: 'Formación Profesional Integral',
+      significado:
+        'Proceso educativo teórico-práctico de carácter integral que articula conocimientos técnicos y tecnológicos con actitudes y valores para actuar en el mundo del trabajo y de la vida.',
+    },
+    {
+      termino: 'Fuente institucional',
+      significado:
+        'Medio, documento, dependencia o sistema autorizado del cual procede información relacionada con los procesos, servicios, normas o actuaciones de la entidad.',
+    },
+    {
+      termino: 'Gestión de información institucional',
+      significado:
+        'Conjunto de acciones destinadas a consultar, verificar, clasificar, utilizar, proteger y comunicar información necesaria para el desarrollo de los procesos institucionales.',
+    },
+    {
+      termino: 'Gestión del riesgo',
+      significado:
+        'Proceso mediante el cual se identifican, analizan y controlan situaciones que pueden afectar el cumplimiento de los objetivos o el desarrollo adecuado de los procesos.',
+    },
+    {
+      termino: 'Indicador de calidad',
+      significado:
+        'Referente de medición que permite obtener información sobre el comportamiento o resultado de un aspecto de la gestión para apoyar su seguimiento y evaluación.',
+    },
+    {
+      termino: 'Integridad institucional',
+      significado:
+        'Actuación coherente con los principios, valores, normas y responsabilidades que orientan el servicio público y la gestión de la entidad.',
+    },
+    {
+      termino: 'Normativa institucional',
+      significado:
+        'Conjunto de disposiciones legales, reglamentarias e internas que establecen condiciones, responsabilidades y lineamientos para el funcionamiento de la entidad.',
+    },
+    {
+      termino: 'Proceso institucional',
+      significado:
+        'Conjunto articulado de actividades y responsabilidades orientadas a generar resultados relacionados con los objetivos y funciones de la entidad.',
+    },
+    {
+      termino: 'Procedimiento institucional',
+      significado:
+        'Secuencia definida de actividades que establece cómo debe desarrollarse una actuación dentro de un proceso institucional.',
+    },
+    {
+      termino: 'Requerimiento institucional',
+      significado:
+        'Solicitud, consulta o necesidad de información que debe ser analizada, gestionada o direccionada de acuerdo con las competencias y procedimientos de la entidad.',
+    },
+    {
+      termino: 'Sistema de información institucional',
+      significado:
+        'Conjunto organizado de recursos tecnológicos y datos que permite registrar, consultar, actualizar o gestionar información asociada con los procesos institucionales.',
+    },
+    {
+      termino: 'Sistema Integrado de Gestión y Autocontrol',
+      significado:
+        'Referente institucional que articula la gestión, el seguimiento, el control y la mejora de los procesos para contribuir al cumplimiento de los objetivos de la entidad.',
+    },
+    {
+      termino: 'Trabajo productivo',
+      significado:
+        'Principio de la Formación Profesional Integral que relaciona el proceso formativo con el mundo del trabajo y las necesidades de los sectores productivos.',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'Posibilidad de identificar y seguir las actuaciones, registros o evidencias generadas durante el desarrollo de un proceso o la gestión de un requerimiento.',
+    },
+    {
+      termino: 'Vigencia de información',
+      significado:
+        'Condición que permite establecer que una información, norma, procedimiento o documento continúa actualizado y aplicable al momento de su consulta o utilización.',
     },
   ],
   referencias: [
     {
-      referencia: 'REF',
-      link: 'LINK',
+      referencia:
+        'Congreso de Colombia. (1994). Ley 119 de 1994, por la cual se reestructura el Servicio Nacional de Aprendizaje, SENA, se deroga el Decreto 2149 de 1992 y se dictan otras disposiciones. Diario Oficial No. 41.216.',
+      link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=14930',
+    },
+    {
+      referencia:
+        'Congreso de Colombia. (2006). Ley 1064 de 2006, por la cual se dictan normas para el apoyo y fortalecimiento de la educación para el trabajo y el desarrollo humano establecida como educación no formal en la Ley General de Educación.',
+      link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=20854',
+    },
+    {
+      referencia:
+        'Congreso de Colombia. (2012). Ley 1581 de 2012, por la cual se dictan disposiciones generales para la protección de datos personales. Diario Oficial No. 48.587.',
+      link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981',
+    },
+    {
+      referencia:
+        'Congreso de Colombia. (2014). Ley 1712 de 2014, por medio de la cual se crea la Ley de Transparencia y del Derecho de Acceso a la Información Pública Nacional y se dictan otras disposiciones. Diario Oficial No. 49.084.',
+      link: 'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=56882',
+    },
+    {
+      referencia: 'Constitución Política de Colombia [Const.]. (1991).',
+      link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (1957). Decreto 118 de 1957, por el cual se decretan aumentos de salarios, se establece el subsidio familiar y se crea el Servicio Nacional de Aprendizaje, SENA.',
+      link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65462',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (2004). Decreto 249 de 2004, por el cual se modifica la estructura del Servicio Nacional de Aprendizaje, SENA. Diario Oficial No. 45.445.',
+      link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33418',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje [SENA]. (1997). Acuerdo 8 de 1997, por medio del cual se adopta el Estatuto de la Formación Profesional del Servicio Nacional de Aprendizaje. Consejo Directivo Nacional.',
+      link: 'https://repositorio.sena.edu.co/handle/11404/1939',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje [SENA]. (2018). Acuerdo 5 de 2018, por el cual se emiten disposiciones sobre la Política de Integridad y el Código de Integridad para el SENA y se deroga el Acuerdo 002 de 2017. Consejo Directivo Nacional.',
+      link: '',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje [SENA]. (s. f.). Normograma del Servicio Nacional de Aprendizaje (SENA).',
+      link: '',
     },
   ],
   creditos: [

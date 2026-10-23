@@ -224,9 +224,36 @@
                     span Ir al recurso
                     i.fas.fa-file-download
 
+    .fullwidth-bg.fullwidth-bg--1
     separador
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 5.4 Acciones preventivas y correctivas
+
+    p.z-2 Los resultados del seguimiento, el control y la evaluación pueden evidenciar situaciones que requieren ajustes. Las acciones orientadas al mejoramiento permiten intervenir sobre estas situaciones y fortalecer el desempeño institucional.
+
+    p.mb-4.z-2 Una acción preventiva se orienta a evitar que se presente una situación que pueda afectar un proceso o resultado. Una acción correctiva responde a una situación identificada y busca intervenir sobre las causas que generaron la dificultad.
+
+    .row.justify-content-center.cursor-pointer.mb-5.z-2
+      .col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema5/27.png", alt="")
+          .crd_hover_txt--body.bg-primario-p5
+            h4.mb-3 Acción preventiva
+            p Se desarrolla antes de que se materialice una situación no deseada. Parte de la identificación de riesgos y busca disminuir la probabilidad de que estos afecten la gestión. 
+            p.mb-0 #[strong Ejemplo]: verificar periódicamente la vigencia de las fuentes utilizadas para orientar requerimientos. 
+
+      .col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema5/28.png", alt="")
+          .crd_hover_txt--body.bg-primario-p5
+            h4.mb-3 Acción correctiva 
+            p Se desarrolla cuando se ha identificado una situación que requiere intervención. Busca corregir sus causas y evitar que vuelva a presentarse. 
+            p.mb-0 #[strong Ejemplo]: ajustar una ruta de direccionamiento después de detectar remisiones reiteradas hacia una dependencia que no tiene competencia sobre el asunto. 
 
     separador
     #t_5_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")

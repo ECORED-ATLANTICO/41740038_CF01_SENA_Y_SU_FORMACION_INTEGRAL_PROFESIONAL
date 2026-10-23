@@ -307,6 +307,7 @@ figcaption, table caption
       transform: translateY(0)
 
   .crd_hover_txt--body
+    border-radius: 20px
     position: absolute
     padding: 1.5rem
     bottom: 0    
@@ -320,6 +321,9 @@ figcaption, table caption
       @media (max-width: $bp-min-sm)  
         p
           font-size: 0.75em
+
+    &.bg-primario-p5
+      background-color: $color-primario-p5
 
   @media (min-width:1200px) and (max-width:1400px)  
     .crd_hover_txt--body

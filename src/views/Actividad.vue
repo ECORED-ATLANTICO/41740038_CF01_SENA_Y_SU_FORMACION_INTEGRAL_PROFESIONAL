@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Fundamentos institucionales, información y orientación de requerimientos en el SENA',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> verificar la apropiación de conocimientos relacionados con los fundamentos institucionales del SENA, la Formación Profesional Integral, la normativa, la gestión de información y la calidad, para orientar requerimientos de acuerdo con los lineamientos institucionales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,477 +30,736 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            'Al orientar a una persona, debe explicar la razón de ser del SENA. ¿Qué propósito representa mejor su misión?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
+              texto:
+                'Contribuir al desarrollo social y técnico mediante Formación Profesional Integral.',
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
-              esCorrecta: true,
+                'Expedir normas generales para todas las instituciones educativas del país.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'Administrar exclusivamente los recursos de las empresas del sector productivo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto:
+                'Sustituir la formación de trabajadores por la gestión de trámites.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Correcto! Usted relaciona la misión del SENA con el desarrollo de los trabajadores y la Formación Profesional Integral.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Revise la misión en el capítulo 1. Distinga la finalidad institucional de las funciones atribuidas a otras entidades.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            'Una solicitud se relaciona con recursos administrativos que permiten desarrollar la formación. ¿Con qué tipo de proceso debe vincularla inicialmente?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto:
+                'Misional, porque toda actividad administrativa constituye formación directa.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+                'De soporte, porque aporta recursos y condiciones para otros procesos.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto:
+                'De evaluación, porque disponer de recursos equivale a evaluar resultados.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto:
+                'Estratégico, porque todo trámite de recursos define políticas institucionales.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Usted distingue los procesos de soporte por su aporte de recursos y condiciones al funcionamiento institucional.',
+          mensaje_incorrecto:
+            'Repase los tipos de procesos del capítulo 1. Diferencie el apoyo administrativo de la formación, la dirección y la evaluación.',
+        },
+        {
+          id: 3,
+          texto:
+            'Recibe una solicitud cuyo responsable desconoce. ¿Cómo utiliza la estructura organizacional del SENA para orientarla?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La envía a la dependencia que recibió la última solicitud.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Elige la dependencia de mayor jerarquía, cualquiera que sea el asunto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Relaciona el asunto con las funciones de la dependencia competente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Selecciona el centro más cercano sin revisar sus competencias.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Usted utiliza la estructura para identificar responsabilidades y direccionar el requerimiento según su naturaleza.',
+          mensaje_incorrecto:
+            'Consulte la estructura institucional del capítulo 1. Verifique las funciones de la dependencia antes de elegir el destino.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            'Le proponen utilizar recursos institucionales para favorecer un interés particular ajeno a la misión. ¿Qué decisión corresponde al carácter público del SENA?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Aceptar si el beneficio particular no genera un gasto adicional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Permitirlo cuando lo solicite una persona de confianza.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Decidir su uso únicamente según la conveniencia del equipo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Destinarlos a los fines institucionales según las reglas aplicables.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Usted reconoce que los recursos públicos deben apoyar los fines institucionales y el bien común.',
+          mensaje_incorrecto:
+            'Revise naturaleza pública y principios en el capítulo 1. Relacione el uso de recursos con la misión y el interés general.',
+        },
+        {
+          id: 5,
+          texto:
+            'Un aprendiz domina una técnica, pero no comprende sus fundamentos ni coopera con su equipo. ¿Qué debe fortalecer desde la Formación Profesional Integral?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La velocidad de ejecución como único criterio de aprendizaje.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La integración de conocimientos, práctica, actitudes y convivencia.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'La memorización de conceptos sin relacionarlos con la práctica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'El desempeño individual, dejando la convivencia fuera de la formación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Usted comprende que la integralidad articula capacidades técnicas, humanas y sociales, además de la ejecución de tareas.',
+          mensaje_incorrecto:
+            'Repase la naturaleza de la FPI en el capítulo 2. Relacione conocer, hacer, ser y convivir en la situación presentada.',
+        },
+        {
+          id: 6,
+          texto:
+            'Una tecnología modifica las tareas de su ocupación después de terminar un programa. ¿Qué actuación expresa el principio de formación permanente?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
+                'Conservar el método aprendido, aunque las condiciones hayan cambiado.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto:
+                'Esperar otra certificación antes de reconocer necesidades de aprendizaje.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
+              texto:
+                'Actualizar sus conocimientos y practicar con las nuevas condiciones.',
+              esCorrecta: true,
             },
             {
               id: 'd',
               texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Delegar siempre las nuevas tareas para evitar volver a aprender.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Usted aplica la formación permanente al reconocer que el aprendizaje continúa ante los cambios del trabajo.',
+          mensaje_incorrecto:
+            'Revise los principios de la FPI en el capítulo 2. Reconozca la actualización como una necesidad que continúa después de certificarse.',
         },
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            'Debe escoger una actividad coherente con el carácter teórico-práctico de la FPI. ¿Cuál selecciona?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Repetir una secuencia sin comprender por qué se realiza.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
+              texto:
+                'Copiar definiciones sin relacionarlas con situaciones de trabajo.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto:
+                'Observar una demostración sin aplicar ni analizar lo observado.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
+              texto:
+                'Resolver un caso aplicando fundamentos y explicar las decisiones tomadas.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Usted integra comprensión y aplicación al resolver una situación y sustentar sus decisiones.',
+          mensaje_incorrecto:
+            'Revise el aprendizaje teórico-práctico del capítulo 2. Busque una actividad que conecte los fundamentos con su utilización.',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'Un sector productivo incorpora nuevas tecnologías. ¿Cómo debe comprender la relación de este cambio con la FPI?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Como un referente para actualizar aprendizajes y resolver necesidades del contexto.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Como un motivo para reemplazar los valores por habilidades técnicas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Como un asunto empresarial sin relación con la formación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Como una razón para limitar el aprendizaje a una tarea fija.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Usted relaciona la FPI con los sectores productivos y la tecnología para mantener su pertinencia y capacidad de adaptación.',
+          mensaje_incorrecto:
+            'Revise las relaciones de la FPI en el capítulo 2. Considere las transformaciones productivas sin perder el carácter integral de la formación.',
         },
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Encuentra una disposición sobre un requerimiento. ¿Qué debe comprobar antes de usarla para orientar la solicitud?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Su extensión, pues el documento más largo siempre prevalece.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Su popularidad entre compañeros, aunque no conozca la fuente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Su vigencia, alcance y relación con el asunto consultado.',
               esCorrecta: true,
             },
+            {
+              id: 'd',
+              texto: 'Su fecha de descarga, aunque no identifique la versión.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Usted verifica la aplicabilidad de la disposición antes de utilizarla como fundamento de la orientación.',
+          mensaje_incorrecto:
+            'Revise el marco normativo del capítulo 3. Compruebe vigencia, alcance y pertinencia; el título o la fecha de descarga no bastan.',
         },
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Necesita sustentar la concepción institucional de la Formación Profesional Integral. ¿Qué referente del componente debe consultar prioritariamente?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'El directorio de contactos de las dependencias.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Un registro de remisiones de requerimientos.',
               esCorrecta: false,
             },
+            {
+              id: 'c',
+              texto: 'Un formato para solicitar recursos administrativos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El Estatuto de la Formación Profesional Integral.',
+              esCorrecta: true,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Usted identifica el Estatuto como referente para comprender la naturaleza, los principios y las características de la FPI.',
+          mensaje_incorrecto:
+            'Revise el apartado del Estatuto en el capítulo 3. Diferencie una fuente conceptual institucional de un directorio o registro operativo.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Identifica la norma y el proceso de una solicitud, pero desconoce los pasos para tramitarla. ¿Qué debe consultar ahora?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'El procedimiento aplicable, con sus responsables, actividades y condiciones.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'La historia institucional, para sustituir las instrucciones del trámite.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Un trámite parecido, aunque corresponda a otro proceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La costumbre del equipo, sin contrastarla con documentos institucionales.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Usted reconoce que el procedimiento concreta cómo actuar dentro del proceso y quiénes intervienen.',
+          mensaje_incorrecto:
+            'Repase procesos y procedimientos en el capítulo 3. Identifique el documento que establece los pasos específicos de la actuación.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'Un conocido le pide omitir un paso del procedimiento para favorecer su solicitud. ¿Cómo debe actuar con integridad?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Omitirlo si el solicitante promete completar después la información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Aplicar el procedimiento con imparcialidad y explicar la ruta correspondiente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Cambiar la ruta sin dejar constancia para facilitar el trámite.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Pedir a otra persona que otorgue el favor solicitado.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Usted aplica los referentes de integridad al orientar sin favorecer intereses particulares y respetar el procedimiento.',
+          mensaje_incorrecto:
+            'Revise los códigos de integridad del capítulo 3. Relacione la imparcialidad y la responsabilidad con la aplicación del procedimiento.',
+        },
+        {
+          id: 13,
+          texto:
+            'Dos documentos presentan rutas diferentes para una solicitud. ¿Cómo determina cuál información utilizar?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Escoge el documento más breve para agilizar la consulta.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Usa el primero recibido porque ya está disponible.',
               esCorrecta: false,
             },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'c',
+              texto:
+                'Combina ambas rutas sin consultar a la fuente responsable.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Contrasta procedencia, competencia, vigencia y correspondencia con el requerimiento.',
               esCorrecta: true,
             },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Usted corrobora la fuente y su aplicabilidad antes de comunicar una ruta institucional.',
+          mensaje_incorrecto:
+            'Revise las fuentes de información del capítulo 4. Compare su autoridad y vigencia antes de decidir cuál usar.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'Debe remitir un documento que contiene datos de acceso restringido. ¿Qué debe hacer antes de compartirlo?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Verificar autorización, finalidad y canal conforme a los protocolos institucionales.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'Enviarlo a todas las dependencias para encontrar un responsable.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Publicarlo en un espacio abierto para facilitar su consulta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Usar una cuenta ajena si su acceso no está habilitado.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Usted protege la confidencialidad al verificar quién puede acceder y bajo qué condiciones debe comunicar la información.',
+          mensaje_incorrecto:
+            'Revise el manejo seguro de información del capítulo 4. Compruebe permisos y condiciones de acceso antes de divulgar datos.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            'Necesita registrar un requerimiento en un aplicativo institucional y su usuario carece del permiso necesario. ¿Qué actuación corresponde?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Pedir prestada la contraseña de una persona que tenga acceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Gestionar el acceso o la intervención autorizada según el procedimiento.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Registrar el trámite con un usuario ajeno sin informar.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Compartir sus credenciales para que otra persona pruebe el acceso.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Usted reconoce que el uso de aplicativos depende de permisos, responsabilidades y procedimientos, y protege las credenciales.',
+          mensaje_incorrecto:
+            'Repase sistemas y aplicativos del capítulo 4. Identifique la ruta autorizada para gestionar la actuación sin compartir credenciales.',
+        },
+        {
+          id: 16,
+          texto:
+            'Recibe una consulta que otra dependencia debe atender. ¿Qué secuencia permite orientarla de manera sustentada?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Remitir al primer contacto disponible y verificar el asunto después.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Responder desde su experiencia y consultar solo si existe una queja.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Identificar el asunto, verificar fuente y competencia, direccionar y comunicar la ruta.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Enviar a todas las dependencias y esperar que alguna asuma el caso.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Usted relaciona el requerimiento con información verificada y una dependencia competente antes de comunicar la orientación.',
+          mensaje_incorrecto:
+            'Revise la gestión de requerimientos del capítulo 4. Analice la necesidad y confirme la competencia antes de realizar la remisión.',
+        },
+        {
+          id: 17,
+          texto:
+            'Antes de remitir una solicitud, comprueba la competencia del destinatario y el procedimiento aplicable. ¿Cómo se relaciona esta acción con el autocontrol?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Asume la verificación de su propia actuación según los lineamientos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Traslada toda la responsabilidad al destinatario del requerimiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituye los procedimientos institucionales por su criterio personal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reserva la verificación exclusivamente para una revisión posterior externa.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Usted ejerce autocontrol al verificar la calidad y conformidad de su actuación antes de direccionar el requerimiento.',
+          mensaje_incorrecto:
+            'Revise el Sistema Integrado de Gestión y Autocontrol en el capítulo 5. Reconozca su responsabilidad al aplicar y verificar los procedimientos.',
+        },
+        {
+          id: 18,
+          texto:
+            'Le presentan un porcentaje como indicador de calidad de un proceso. ¿Qué necesita conocer para comprenderlo?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Solo si su valor es mayor que el porcentaje del mes anterior.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'El nombre de quien lo presentó, sin revisar su propósito.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Qué mide, con qué datos se obtiene y con qué criterio se compara.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Únicamente cuántas personas participaron en su elaboración.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Usted reconoce que un indicador requiere un propósito, información verificable y un criterio de comparación para apoyar la gestión.',
+          mensaje_incorrecto:
+            'Revise indicadores de calidad en el capítulo 5. Evite interpretar un porcentaje aislado de su significado y referente.',
+        },
+        {
+          id: 19,
+          texto:
+            'Detecta que un directorio podría estar desactualizado antes de remitir una solicitud. ¿Qué acción preventiva reduce el riesgo de direccionamiento incorrecto?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Remitir con el directorio disponible y esperar una devolución.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Verificar los datos y la competencia en la fuente institucional vigente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Duplicar la remisión a cualquier dependencia para ganar tiempo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Registrar el posible error sin comprobar los datos del destinatario.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Usted previene una remisión incorrecta al controlar el riesgo antes de que afecte la orientación.',
+          mensaje_incorrecto:
+            'Revise gestión del riesgo y acciones preventivas en el capítulo 5. Actúe sobre la posible causa antes de remitir.',
+        },
+        {
+          id: 20,
+          texto:
+            'Se repiten remisiones a una dependencia sin competencia. ¿Qué acción correctiva contribuye a evitar que el problema continúe?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Reenviar cada solicitud sin revisar por qué se repite el error.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Aumentar las remisiones para compensar las devoluciones recibidas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Eliminar los registros de errores para mejorar el reporte del proceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Analizar la causa, ajustar la ruta aplicable y verificar su eficacia.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Usted relaciona la mejora con intervenir la causa del problema y comprobar que el ajuste produzca el resultado esperado.',
+          mensaje_incorrecto:
+            'Repase acciones correctivas y mejora del capítulo 5. Distinga solucionar un caso de intervenir la causa de su repetición.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+
+      mensaje_final_aprobado:
+        '¡Felicitaciones! Usted alcanzó al menos el 70 % de respuestas correctas. Demuestra comprensión de los fundamentos institucionales y su aplicación a la orientación de requerimientos. Revise las retroalimentaciones y repita la actividad si desea afianzar sus aprendizajes.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
+        'Usted aún no alcanza el 70 % de respuestas correctas. Revise las retroalimentaciones y retome los temas que necesita fortalecer. Recuerde que esta actividad no es calificable y puede repetirla cuantas veces desee.',
     },
   }),
 }
