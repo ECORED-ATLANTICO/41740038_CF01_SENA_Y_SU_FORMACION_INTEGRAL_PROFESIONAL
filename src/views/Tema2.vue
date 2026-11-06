@@ -114,10 +114,11 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.px-xl-5
-                  p Para profundizar en la concepción de la formación profesional y su carácter integral mediante este recurso audiovisual del SENA. Tenga en cuenta su contexto histórico y contraste sus planteamientos con los conceptos desarrollados en este componente. 
+                  h5 El SENA forma líderes valiosos para la producción industrial
+                  p Para ampliar: explore el programa Tecnólogo en Gestión de la Producción Industrial del CDTI del SENA mediante el recurso audiovisual El SENA forma líderes valiosos para la producción industrial. Observe cómo este perfil profesional capacita a los aprendices para lograr impacto en el desarrollo económico, social y tecnológico de su entorno.   
                   p.mb-0 Consulte el video en el siguiente enlace:
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://repositorio.sena.edu.co/bitstream/handle/11404/3805/general.mp4?sequence=1&isAllowed=y" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=4A40DOK6wZ8" target="_blank")
                     span Ir al recurso
                     i.fas.fa-file-download
 
@@ -176,33 +177,33 @@
               .row.justify-content-center.mb-3
                 .col-6.col-sm-4.col-xl-5
                   img.imgw-95.mb-2(src='@/assets/curso/tema2/14.svg' alt='')
-              p.mb-0.text-center Organización modular. Los contenidos y aprendizajes se estructuran de manera articulada para favorecer el desarrollo progresivo de capacidades. 
+              p.mb-0.text-center #[strong Organización modular.] Los contenidos y aprendizajes se estructuran de manera articulada para favorecer el desarrollo progresivo de capacidades. 
             .tarjeta.tarjeta--blanca.p-4.pt-5.shadow-sm
               .row.justify-content-center.mb-3
                 .col-6.col-sm-4.col-xl-5
                   img.imgw-95.mb-2(src='@/assets/curso/tema2/15.svg' alt='')
-              p.mb-0.text-center Aprendizaje teórico-práctico. Los conocimientos se relacionan permanentemente con su aplicación en contextos concretos. 
+              p.mb-0.text-center #[strong Aprendizaje teórico-práctico.] Los conocimientos se relacionan permanentemente con su aplicación en contextos concretos. 
             .tarjeta.tarjeta--blanca.p-4.pt-5.shadow-sm
               .row.justify-content-center.mb-3
                 .col-6.col-sm-4.col-xl-5
                   img.imgw-95.mb-2(src='@/assets/curso/tema2/16.svg' alt='')
-              p.mb-0.text-center Pedagogías innovadoras. La formación promueve estrategias que favorecen la participación activa, la resolución de problemas y el aprendizaje significativo. 
+              p.mb-0.text-center #[strong Pedagogías innovadoras.] La formación promueve estrategias que favorecen la participación activa, la resolución de problemas y el aprendizaje significativo. 
             .tarjeta.tarjeta--blanca.p-4.pt-5.shadow-sm
               .row.justify-content-center.mb-3
                 .col-6.col-sm-4.col-xl-5
                   img.imgw-95.mb-2(src='@/assets/curso/tema2/17.svg' alt='')
-              p.mb-0.text-center Comprensión social y ambiental. El desempeño laboral se reconoce como parte de un contexto más amplio que incluye impactos sociales y ambientales. 
+              p.mb-0.text-center #[strong Comprensión social y ambiental.] El desempeño laboral se reconoce como parte de un contexto más amplio que incluye impactos sociales y ambientales. 
             .tarjeta.tarjeta--blanca.p-4.pt-5.shadow-sm
               .row.justify-content-center.mb-3
                 .col-6.col-sm-4.col-xl-5
                   img.imgw-95.mb-2(src='@/assets/curso/tema2/18.svg' alt='')
-              p.mb-0.text-center Diseño basado en competencias. La formación se estructura en función de capacidades demostrables para actuar de manera pertinente en diferentes situaciones. 
+              p.mb-0.text-center #[strong Diseño basado en competencias.] La formación se estructura en función de capacidades demostrables para actuar de manera pertinente en diferentes situaciones. 
         .col-sm-6.col-lg-4.d-none.d-lg-block
           figure
             img(data-aos="fade-down-right", src="@/assets/curso/tema2/19.png", alt="")
 
     .titulo-sexto.color-acento-contenido.mb-4.z-2
-      h5 Tabla 3.
+      h5 Tabla 4.
       span Principios y características
     .tabla-a.color-primario.tabla-a--text-left.z-2
       table
@@ -290,15 +291,15 @@
       .col-lg-9
         TabsA.color-primario.mb-0.custom-tabs
           .tarjeta.bg-primario-p5.p-4(titulo="Comprender")
-            p.mb-0 Apropiar conocimientos técnicos, tecnológicos y contextuales que permitan entender los conceptos, procesos y situaciones propias de la formación. 
+            p.mb-0 Apropiar conocimientos técnicos, tecnológicos y contextuales.
           .tarjeta.bg-primario-p5.p-4(titulo="Aplicar")
-            p.mb-0 Utilizar los conocimientos adquiridos en situaciones propias del desempeño, integrando la teoría con la práctica de manera pertinente. 
+            p.mb-0 Utilizar esos conocimientos en situaciones propias del desempeño.
           .tarjeta.bg-primario-p5.p-4(titulo="Resolver")
-            p.mb-0 Analizar situaciones, identificar alternativas y tomar decisiones frente a problemas, aplicando los conocimientos y habilidades desarrollados. 
+            p.mb-0 Analizar situaciones y tomar decisiones frente a problemas.
           .tarjeta.bg-primario-p5.p-4(titulo="Adaptar")
-            p.mb-0 Responder de manera pertinente a los cambios tecnológicos, productivos y organizacionales, ajustando conocimientos y estrategias según las nuevas necesidades. 
+            p.mb-0 Responder a cambios tecnológicos, productivos y organizacionales. 
           .tarjeta.bg-primario-p5.p-4(titulo="Mejorar")
-            p.mb-0 Incorporar nuevos aprendizajes, reflexionar sobre la experiencia y fortalecer permanentemente el desempeño para alcanzar mejores resultados. 
+            p.mb-0 Incorporar nuevos aprendizajes y fortalecer permanentemente el desempeño.
 
     p.mb-0 Esta secuencia sintetiza la idea de que la Formación Profesional Integral prepara para actuar en el trabajo, pero también para aprender y transformarse dentro de él.
 
@@ -351,18 +352,22 @@
 
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
-        .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
+        .titulo-con-imagen(data-aos="fade-right")
           .titulo-con-imagen__fondo
             img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
             h3.titulo-con-imagen__texto Articulación de la formación 
 
+    .row.justify-content-center.align-items-center.z-2.mb-5
+      .col-xl-10
+        p La pertinencia de la Formación Profesional Integral depende de su capacidad para relacionar las necesidades de las personas, los territorios y los sectores productivos con las oportunidades de formación y desarrollo. 
+
+    .row.justify-content-center.align-items-center.z-2
+      .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
-          span  Diagrama de relaciones 
-        img.mb-4.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/28-mob.svg", alt="El diagrama ilustra la Formación Profesional Integral con sus tres relaciones principales: sistema educativo, sectores productivos y sociedad y territorios.")
-        img.mb-4.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/28.svg", alt="El diagrama ilustra la Formación Profesional Integral con sus tres relaciones principales: sistema educativo, sectores productivos y sociedad y territorios.")
-
-        p.mb-0 La pertinencia de la Formación Profesional Integral depende de su capacidad para relacionar las necesidades de las personas, los territorios y los sectores productivos con las oportunidades de formación y desarrollo. 
+          span  Articulación de la formación
+        img.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/28-mob.svg", alt="El diagrama ilustra la Formación Profesional Integral con sus tres relaciones principales: sistema educativo, sectores productivos y sociedad y territorios.")
+        img.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/28.svg", alt="El diagrama ilustra la Formación Profesional Integral con sus tres relaciones principales: sistema educativo, sectores productivos y sociedad y territorios.")
 
     separador
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -472,7 +477,7 @@
               figure.pt-3
                 img.w-315(src="@/assets/curso/common/mic.png", alt="")
             .col-sm-8.col-lg-7.p-4
-              p Ir al pódcast:
+              p A continuación, lo invitamos a consultar el siguiente pódcast:
               TarjetaAudio.mb-3.color-primario(
                 texto=" El SENA y la Formación Profesional Integral: formación para el trabajo y el desarrollo humano."
                 tiempo

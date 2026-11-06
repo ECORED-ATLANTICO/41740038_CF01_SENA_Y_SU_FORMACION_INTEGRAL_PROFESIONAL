@@ -242,7 +242,7 @@
               img.imgw-61(src="@/assets/curso/tema1/18.svg", alt="" data-aos="zoom-in-down")
             .col-lg-11
               p.mb-0 Conocer la naturaleza jurídica del SENA permite comprender el lugar que ocupa dentro de la organización del Estado colombiano y la responsabilidad pública que orienta su actuación. De igual manera, reconocer las bases de su financiación ayuda a entender cómo la entidad dispone de recursos para cumplir su misión y sostener los procesos de Formación Profesional Integral. 
-        p.mb-0 Desde su origen, el SENA fue concebido como una institución pública vinculada con la formación de los trabajadores. Su actuación y campo de acción está relacionado con el artículo 54 de la Constitución Política, la Ley 119 de 1994 y el Decreto 249 de 2004.  
+        p.mb-4.mb-lg-0 Desde su origen, el SENA fue concebido como una institución pública vinculada con la formación de los trabajadores. Su actuación y campo de acción están relacionado con el artículo 54 de la Constitución Política, la Ley 119 de 1994 y el Decreto 249 de 2004.  
       .col-sm-6.col-lg-3
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema1/19.png", alt="")
@@ -639,7 +639,7 @@
             .col-lg-1.d-none.d-lg-block.p-0
               img.imgw-61(src="@/assets/curso/tema1/55.svg", alt="" data-aos="zoom-in-down")
             .col-lg-11
-              p.mb-0 Esta relación adquiere especial importancia en la atención de requerimientos. Quien consulta, organiza o comunica información institucional debe hacerlo reconociendo tanto los procedimientos aplicables como el propósito de la entidad y los criterios éticos que orientan el servicio. Una respuesta técnicamente correcta, pero suministrada sin respeto, oportunidad, transparencia o diligencia, no representa de manera integral los referentes institucionales 
+              p.mb-0 Esta relación adquiere especial importancia en la atención de requerimientos. Quien consulta, organiza o comunica información institucional debe hacerlo reconociendo tanto los procedimientos aplicables como el propósito de la entidad y los criterios éticos que orientan el servicio. Una respuesta técnicamente correcta, pero suministrada sin respeto, oportunidad, transparencia o diligencia, no representa de manera integral los referentes institucionales.
 
     p.mb-4 Por ello, la apropiación de estos elementos contribuye directamente al criterio de evaluación establecido en la planeación: describir las características del SENA de acuerdo con la normativa y los procedimientos institucionales. 
 
@@ -700,7 +700,8 @@
       .col-lg-9
         TabsA.color-primario.mb-0.custom-tabs
           .tarjeta.bg-primario-p5.p-4(titulo="Dirección General")
-            p.mb-0 Concentra la orientación y coordinación nacional de la entidad. Desde este nivel se establecen lineamientos institucionales y se articulan las diferentes áreas responsables de apoyar el cumplimiento de la misión, la administración y el funcionamiento del SENA. 
+            p Concentra la orientación y coordinación nacional de la entidad. Desde este nivel se establecen lineamientos institucionales y se articulan las diferentes áreas responsables de apoyar el cumplimiento de la misión, la administración y el funcionamiento del SENA. 
+            p.mb-0 Su papel resulta esencial para mantener criterios comunes de actuación y coordinar las decisiones que tienen alcance nacional. 
           .tarjeta.bg-primario-p5.p-4(titulo="Direcciones regionales")
             p.mb-0 Permiten desarrollar y coordinar la gestión institucional en los diferentes territorios. Constituyen un vínculo entre las orientaciones nacionales y las condiciones particulares de cada región, facilitando la articulación de los centros de formación y demás acciones institucionales correspondientes a su ámbito territorial. 
           .tarjeta.bg-primario-p5.p-4(titulo="Centros de formación")
@@ -851,7 +852,7 @@
         .bg-reflexion.p-4
           .row.justify-content-center
             .col-xl-9
-              p.mb-0 #[strong Frase para reflexionar:] conocer la estructura organizacional no significa memorizar un organigrama completo. Para este componente formativo, el aprendizaje relevante consiste en comprender cómo se organiza la entidad y utilizar esa organización para localizar información y determinar competencias
+              p.mb-0 #[strong Frase para reflexionar:] conocer la estructura organizacional no significa memorizar un organigrama completo. Para este componente formativo, el aprendizaje relevante consiste en comprender cómo se organiza la entidad y utilizar esa organización para localizar información y determinar competencias.
 
     .row.justify-content-center.align-items-center.mb-4.z-2
       .col-xl-10
@@ -867,6 +868,11 @@
       h2 1.5  Procesos institucionales del SENA
 
     p.mb-5.z-2 La estructura organizacional define cómo se distribuyen las responsabilidades dentro del SENA; los procesos institucionales, por su parte, permiten comprender cómo se articulan esas responsabilidades para producir resultados. 
+
+    .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto ¿Qué es un proceso institucional? 
 
     .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
@@ -887,6 +893,8 @@
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
         h3.titulo-con-imagen__texto Tipos de procesos 
+
+    p.mb-5.z-2 Los procesos institucionales cumplen funciones diferentes y complementarias. Reconocer su propósito facilita comprender cómo se organiza la gestión y cómo se relacionan las distintas dependencias. 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-6.col-lg-3.d-none.d-lg-block
@@ -1044,7 +1052,7 @@
     .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
-        h3.titulo-con-imagen__texto Del proceso al procedimiento
+        h3.titulo-con-imagen__texto Sistema Integrado de Gestión y Autocontrol 
 
     .bg-img.bg-img--3.p-4.rounded-4.z-2.mb-5
       .row.justify-content-center.align-items-center
@@ -1058,6 +1066,8 @@
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
         h3.titulo-con-imagen__texto Ruta institucional básica
+
+    p.mb-5.z-2 Para orientar un requerimiento de manera adecuada, la estructura organizacional y los procesos deben analizarse de forma conjunta. 
 
     .row.justify-content-center.align-items-center.z-2.mb-4
       .col-xl-8.mb-4.mb-lg-0
@@ -1113,6 +1123,8 @@
           .row.justify-content-center
             .col-xl-9
               p.mb-0 #[strong Frase para reflexionar:] el mapa de procesos no debe interpretarse como una representación estática. Su utilidad consiste en mostrar cómo se relacionan las diferentes áreas y actividades para cumplir la misión institucional.
+
+    p.mb-4.z-2 Por esta razón, cuando se utilice para orientar un requerimiento, no basta con reconocer el nombre de un proceso. Es necesario consultar la fuente institucional vigente, verificar el procedimiento asociado y confirmar la dependencia competente. 
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4.z-2
       .bloque-texto-g__img(

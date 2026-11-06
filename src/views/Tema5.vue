@@ -15,7 +15,7 @@
 
     .row.justify-content-center.align-items-center.z-2
       .col-lg-5
-        p.mb-4.mb-lg-0 En el SENA, estos elementos se articulan mediante el #[strong Sistema Integrado de Gestión y Autocontrol], que sirve como referente para organizar y fortalecer la gestión institucional. El diseño curricular incorpora dentro de este ámbito los indicadores de calidad, el seguimiento, control y evaluación de procesos, la gestión del riesgo y las acciones preventivas y correctivas.
+        p.mb-4.mb-lg-0 En el SENA, estos elementos se articulan mediante el Sistema Integrado de Gestión y Autocontrol, que sirve como referente para organizar y fortalecer la gestión institucional. El diseño curricular incorpora dentro de este ámbito los indicadores de calidad, el seguimiento, control y evaluación de procesos, la gestión del riesgo y las acciones preventivas y correctivas.
       .col-lg-7
         .bg-img.bg-img--2.rounded-4.p-4.mb-3
           p.mb-0 Para el propósito de este componente, estos contenidos se abordan desde su aplicación básica a la orientación de requerimientos: reconocer que las actuaciones institucionales deben desarrollarse mediante procedimientos establecidos, dejar evidencias, ser objeto de seguimiento y contribuir al mejoramiento de los procesos.
@@ -28,13 +28,13 @@
 
     .row.justify-content-center.align-items-center.mb-3.z-2
       .col-lg-9
-        p El #[strong Sistema Integrado de Gestión y Autocontrol] permite relacionar los diferentes procesos institucionales con mecanismos de planeación, ejecución, seguimiento, evaluación y mejora. Su utilización favorece una gestión organizada, en la que las responsabilidades, procedimientos y resultados pueden ser identificados y verificados.
+        p El Sistema Integrado de Gestión y Autocontrol permite relacionar los diferentes procesos institucionales con mecanismos de planeación, ejecución, seguimiento, evaluación y mejora. Su utilización favorece una gestión organizada, en la que las responsabilidades, procedimientos y resultados pueden ser identificados y verificados.
         .bg-img.bg-img--3.rounded-4.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-lg-1.d-none.d-lg-block.p-0
               img.imgw-61(src="@/assets/curso/tema5/2.svg", alt="" data-aos="zoom-in-down")
             .col-lg-11
-              p.mb-0 El concepto de #[strong gestión] hace referencia a las acciones mediante las cuales se organizan recursos, actividades y responsabilidades para alcanzar determinados objetivos. El #[strong autocontrol], por su parte, implica que quienes intervienen en los procesos reconozcan su responsabilidad frente a la calidad de las actuaciones que realizan y verifiquen el cumplimiento de los procedimientos aplicables. 
+              p.mb-0 El concepto de gestión hace referencia a las acciones mediante las cuales se organizan recursos, actividades y responsabilidades para alcanzar determinados objetivos. El autocontrol, por su parte, implica que quienes intervienen en los procesos reconozcan su responsabilidad frente a la calidad de las actuaciones que realizan y verifiquen el cumplimiento de los procedimientos aplicables. 
       .col-sm-6.col-lg-3
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema5/3.png", alt="")
@@ -89,14 +89,14 @@
             img(src='@/assets/curso/tema5/8.png', alt='')
         .col-lg
           .p-4
-            p.mb-0(data-aos="fade-up") El #[strong seguimiento] permite observar periódicamente cómo avanza un proceso o una actividad. El #[strong control] ayuda a verificar el cumplimiento de las condiciones y procedimientos establecidos. La #[strong evaluación] analiza los resultados obtenidos para determinar su correspondencia con los objetivos y criterios definidos. 
+            p.mb-0(data-aos="fade-up") El seguimiento permite observar periódicamente cómo avanza un proceso o una actividad. El control ayuda a verificar el cumplimiento de las condiciones y procedimientos establecidos. La evaluación analiza los resultados obtenidos para determinar su correspondencia con los objetivos y criterios definidos. 
 
     p.mb-4.z-2 Estos mecanismos necesitan información verificable. Por ello, los registros, documentos, datos y demás evidencias generadas durante la gestión son fundamentales para establecer qué ocurrió y sustentar las decisiones posteriores. 
 
     .row.justify-content-center.mb-4.z-2
       .col-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 7.
+          h5 Tabla 8.
           span Seguimiento y evaluación
         .tabla-a.color-primario.tabla-a--text-left.mb-2
           table
@@ -157,7 +157,7 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/tema5/11.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La gestión del riesgo institucional se basa en la identificación, evaluación y mitigación de las amenazas que pueden afectar la misión, la normativa y los resultados esperados. Su objetivo es prevenir pérdidas, minimizar impactos y garantizar la continuidad de las actividades. 
+        p.mb-0 Toda actuación institucional puede enfrentar situaciones que afecten el cumplimiento de los objetivos o el desarrollo adecuado de un proceso. La gestión del riesgo permite anticipar esas situaciones, valorar sus posibles consecuencias y adoptar medidas para disminuir su probabilidad o impacto. 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-lg-1.d-none.d-lg-block
@@ -218,11 +218,12 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.px-xl-5
-                  p.mb-0 Para ampliar, fortalezca la comprensión de la gestión del riesgo mediante este recurso audiovisual del SENA, que presenta orientaciones relacionadas con la calificación de controles en el marco del sistema integrado de gestión y autocontrol.
+                  p.mb-0 Para ampliar: fortalezca la comprensión de la gestión del riesgo mediante este la consulta de este video Sistema Integrado de Gestión y Autocontrol (SIGA), que presenta orientaciones relacionadas con la calificación de controles en el marco del Sistema Integrado de Gestión y Autocontrol. 
+                  p.mb-0 Consulte el video en el siguiente enlace: 
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.imadatech.com/blog/rpa-ia-pqrs-secretaria-movilidad-cali/" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=QFUmCFmEM_o" target="_blank")
                     span Ir al recurso
-                    i.fas.fa-file-download
+                    i.fas.fa-file-video
 
     .fullwidth-bg.fullwidth-bg--1
     separador
@@ -232,6 +233,11 @@
     p.z-2 Los resultados del seguimiento, el control y la evaluación pueden evidenciar situaciones que requieren ajustes. Las acciones orientadas al mejoramiento permiten intervenir sobre estas situaciones y fortalecer el desempeño institucional.
 
     p.mb-4.z-2 Una acción preventiva se orienta a evitar que se presente una situación que pueda afectar un proceso o resultado. Una acción correctiva responde a una situación identificada y busca intervenir sobre las causas que generaron la dificultad.
+
+    .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto Prevenir y corregir
 
     .row.justify-content-center.cursor-pointer.mb-5.z-2
       .col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
@@ -347,7 +353,7 @@
               figure.pt-3
                 img.w-315(src="@/assets/curso/common/mic.png", alt="")
             .col-sm-8.col-lg-7.p-4
-              p Ir al pódcast:
+              p A continuación, lo invitamos a consultar el siguiente pódcast:
               TarjetaAudio.mb-3.color-primario(
                 texto=" ¿Cómo orientar correctamente un requerimiento institucional en el SENA?"
                 tiempo

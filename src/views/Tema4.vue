@@ -41,8 +41,8 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema4/4.svg", alt="" data-aos="zoom-in-down")
       .col-lg-11
-        p Para que una información pueda utilizarse de manera responsable, no basta con que resulte pertinente para la consulta. También debe ser posible reconocer #[strong su procedencia, vigencia y autoridad institucional]. 
-        p.mb-0 Las fuentes pueden agruparse, de manera general, en #[strong internas y externas]. 
+        p Para que una información pueda utilizarse de manera responsable, no basta con que resulte pertinente para la consulta. También debe ser posible reconocer su procedencia, vigencia y autoridad institucional. 
+        p.mb-0 Las fuentes pueden agruparse, de manera general, en internas y externas. 
 
     .bg-contenido-a5.mb-4.z-2(data-aos="fade-up")
       .row.justify-content-center.align-items-center
@@ -114,11 +114,11 @@
         .bg-cards.rounded-4.p-4.overflow-hidden.h-100
           figure
             img.imgw-104.mb-4(src="@/assets/curso/tema4/11.svg", alt="")
-          p.mb-0.text-center #[strong Correspondencia: ] si responde realmente al requerimiento plantea 
+          p.mb-0.text-center #[strong Correspondencia: ] si responde realmente al requerimiento plantea.
   
     separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.2 Sistemas de información institucional
+      h2 4.2 Sistemas y aplicativos institucionales
 
     img(data-aos="fade-up", src="@/assets/curso/tema4/12.png", alt="")
     .row.justify-content-center.z-2
@@ -137,7 +137,7 @@
     .row.justify-content-center.z-2
       .col-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 6.
+          h5 Tabla 7.
           span Sistemas y aplicativos
         .tabla-a.color-primario.tabla-a--text-left.mb-4
           table
@@ -267,12 +267,12 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.px-xl-5
-                  p Para ampliar: conozca la evolución de la gestión documental en el SENA y su relación con la administración de la información y el conocimiento institucional.  
-                  p.mb-0 Consulte la infografía disponible en el Repositorio Institucional del SENA:  
+                  p Para ampliar: conozca, a través de este video titulado OnBase más que un sistema de gestión documental, la evolución de la gestión documental en el SENA y su relación con la administración de la información y el conocimiento institucional.  
+                  p.mb-0 Consulte el recurso audiovisual en el siguiente enlace:
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.imadatech.com/blog/rpa-ia-pqrs-secretaria-movilidad-cali/" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=mEHpABkjMb4" target="_blank")
                     span Ir al recurso
-                    i.fas.fa-file-download
+                    i.fas.fa-file-video
 
     separador
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -286,9 +286,9 @@
       .col-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 3.
-          span Diagrama de flujo
-        img.mb-4.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/21-mob.svg", alt="Diagrama de flujo del proceso de atención del SENA. Describe secuencialmente 7 pasos de izquierda a derecha: Recepción del requerimiento, Identificación del asunto, Consulta de información, Determinación del responsable, Direccionamiento o gestión, Comunicación de la información, y finaliza con Registro y seguimiento.")
-        img.mb-4.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/21.svg", alt="Diagrama de flujo del proceso de atención del SENA. Describe secuencialmente 7 pasos de izquierda a derecha: Recepción del requerimiento, Identificación del asunto, Consulta de información, Determinación del responsable, Direccionamiento o gestión, Comunicación de la información, y finaliza con Registro y seguimiento.")
+          span Canales y flujos informativos
+        img.mb-4.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/21-mob.svg", alt="La figura 3 describe los canales y flujos informativos que recorre un requerimiento sus diferentes momentos de evolución, los cuales van desde la recepción del mismo, la identificación del asunto, la consulta de la información, la determinación del responsable, el direccionamiento o gestión del mismo, la comunicación de la información, y el registro y seguimiento del mismo.")
+        img.mb-4.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/21.svg", alt="La figura 3 describe los canales y flujos informativos que recorre un requerimiento sus diferentes momentos de evolución, los cuales van desde la recepción del mismo, la identificación del asunto, la consulta de la información, la determinación del responsable, el direccionamiento o gestión del mismo, la comunicación de la información, y el registro y seguimiento del mismo.")
 
     .row.justify-content-center.align-items-center.mb-5.z-2
       .col-xl-10
@@ -372,13 +372,13 @@
     .row.justify-content-center.align-items-center.mb-3.z-2
       .col-lg-9
         .bg-img.bg-img--1.rounded-4.p-4.mb-3
-          p.mb-0 Este ejemplo permite reconocer una regla fundamental: #[strong una orientación institucional confiable depende tanto de la calidad de la información como de la correcta identificación de la fuente y la dependencia competente.] 
+          p.mb-0 Este ejemplo permite reconocer una regla fundamental: una orientación institucional confiable depende tanto de la calidad de la información como de la correcta identificación de la fuente y la dependencia competente. 
         p.mb-4.mb-lg-0 La gestión de información institucional permite transformar datos, documentos y fuentes en insumos confiables para orientar requerimientos. Para ello es necesario reconocer la procedencia de la información, utilizar los sistemas y aplicativos correspondientes, aplicar condiciones de seguridad y confidencialidad, verificar la vigencia de las fuentes y comprender los canales mediante los cuales circula la información. 
       .col-sm-6.col-lg-3
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/26.png", alt="")
     
-    p Estos elementos permiten pasar del conocimiento institucional a una actuación concreta: #[strong consultar, verificar, relacionar y direccionar información de acuerdo con la estructura y los procedimientos del SENA.]
+    p Estos elementos permiten pasar del conocimiento institucional a una actuación concreta: consultar, verificar, relacionar y direccionar información de acuerdo con la estructura y los procedimientos del SENA.
 
 
 </template>

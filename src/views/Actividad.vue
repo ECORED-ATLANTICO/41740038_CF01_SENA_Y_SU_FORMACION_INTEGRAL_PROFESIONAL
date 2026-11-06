@@ -60,7 +60,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted relaciona la misión del SENA con el desarrollo de los trabajadores y la Formación Profesional Integral.',
+            'Usted relaciona la misión del SENA con el desarrollo de los trabajadores y la Formación Profesional Integral.',
           mensaje_incorrecto:
             'Revise la misión en el capítulo 1. Distinga la finalidad institucional de las funciones atribuidas a otras entidades.',
         },
@@ -97,7 +97,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted distingue los procesos de soporte por su aporte de recursos y condiciones al funcionamiento institucional.',
+            'Usted distingue los procesos de soporte por su aporte de recursos y condiciones al funcionamiento institucional.',
           mensaje_incorrecto:
             'Repase los tipos de procesos del capítulo 1. Diferencie el apoyo administrativo de la formación, la dirección y la evaluación.',
         },
@@ -134,7 +134,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted utiliza la estructura para identificar responsabilidades y direccionar el requerimiento según su naturaleza.',
+            'Usted utiliza la estructura para identificar responsabilidades y direccionar el requerimiento según su naturaleza.',
           mensaje_incorrecto:
             'Consulte la estructura institucional del capítulo 1. Verifique las funciones de la dependencia antes de elegir el destino.',
         },
@@ -170,7 +170,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted reconoce que los recursos públicos deben apoyar los fines institucionales y el bien común.',
+            'Usted reconoce que los recursos públicos deben apoyar los fines institucionales y el bien común.',
           mensaje_incorrecto:
             'Revise naturaleza pública y principios en el capítulo 1. Relacione el uso de recursos con la misión y el interés general.',
         },
@@ -207,7 +207,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted comprende que la integralidad articula capacidades técnicas, humanas y sociales, además de la ejecución de tareas.',
+            'Usted comprende que la integralidad articula capacidades técnicas, humanas y sociales, además de la ejecución de tareas.',
           mensaje_incorrecto:
             'Repase la naturaleza de la FPI en el capítulo 2. Relacione conocer, hacer, ser y convivir en la situación presentada.',
         },
@@ -244,7 +244,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted aplica la formación permanente al reconocer que el aprendizaje continúa ante los cambios del trabajo.',
+            'Usted aplica la formación permanente al reconocer que el aprendizaje continúa ante los cambios del trabajo.',
           mensaje_incorrecto:
             'Revise los principios de la FPI en el capítulo 2. Reconozca la actualización como una necesidad que continúa después de certificarse.',
         },
@@ -280,7 +280,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted integra comprensión y aplicación al resolver una situación y sustentar sus decisiones.',
+            'Usted integra comprensión y aplicación al resolver una situación y sustentar sus decisiones.',
           mensaje_incorrecto:
             'Revise el aprendizaje teórico-práctico del capítulo 2. Busque una actividad que conecte los fundamentos con su utilización.',
         },
@@ -317,7 +317,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted relaciona la FPI con los sectores productivos y la tecnología para mantener su pertinencia y capacidad de adaptación.',
+            'Usted relaciona la FPI con los sectores productivos y la tecnología para mantener su pertinencia y capacidad de adaptación.',
           mensaje_incorrecto:
             'Revise las relaciones de la FPI en el capítulo 2. Considere las transformaciones productivas sin perder el carácter integral de la formación.',
         },
@@ -353,7 +353,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted verifica la aplicabilidad de la disposición antes de utilizarla como fundamento de la orientación.',
+            'Usted verifica la aplicabilidad de la disposición antes de utilizarla como fundamento de la orientación.',
           mensaje_incorrecto:
             'Revise el marco normativo del capítulo 3. Compruebe vigencia, alcance y pertinencia; el título o la fecha de descarga no bastan.',
         },
@@ -386,7 +386,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted identifica el Estatuto como referente para comprender la naturaleza, los principios y las características de la FPI.',
+            'Usted identifica el Estatuto como referente para comprender la naturaleza, los principios y las características de la FPI.',
           mensaje_incorrecto:
             'Revise el apartado del Estatuto en el capítulo 3. Diferencie una fuente conceptual institucional de un directorio o registro operativo.',
         },
@@ -422,7 +422,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted reconoce que el procedimiento concreta cómo actuar dentro del proceso y quiénes intervienen.',
+            'Usted reconoce que el procedimiento concreta cómo actuar dentro del proceso y quiénes intervienen.',
           mensaje_incorrecto:
             'Repase procesos y procedimientos en el capítulo 3. Identifique el documento que establece los pasos específicos de la actuación.',
         },
@@ -458,7 +458,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted aplica los referentes de integridad al orientar sin favorecer intereses particulares y respetar el procedimiento.',
+            'Usted aplica los referentes de integridad al orientar sin favorecer intereses particulares y respetar el procedimiento.',
           mensaje_incorrecto:
             'Revise los códigos de integridad del capítulo 3. Relacione la imparcialidad y la responsabilidad con la aplicación del procedimiento.',
         },
@@ -493,7 +493,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted corrobora la fuente y su aplicabilidad antes de comunicar una ruta institucional.',
+            'Usted corrobora la fuente y su aplicabilidad antes de comunicar una ruta institucional.',
           mensaje_incorrecto:
             'Revise las fuentes de información del capítulo 4. Compare su autoridad y vigencia antes de decidir cuál usar.',
         },
@@ -529,7 +529,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted protege la confidencialidad al verificar quién puede acceder y bajo qué condiciones debe comunicar la información.',
+            'Usted protege la confidencialidad al verificar quién puede acceder y bajo qué condiciones debe comunicar la información.',
           mensaje_incorrecto:
             'Revise el manejo seguro de información del capítulo 4. Compruebe permisos y condiciones de acceso antes de divulgar datos.',
         },
@@ -565,7 +565,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted reconoce que el uso de aplicativos depende de permisos, responsabilidades y procedimientos, y protege las credenciales.',
+            'Usted reconoce que el uso de aplicativos depende de permisos, responsabilidades y procedimientos, y protege las credenciales.',
           mensaje_incorrecto:
             'Repase sistemas y aplicativos del capítulo 4. Identifique la ruta autorizada para gestionar la actuación sin compartir credenciales.',
         },
@@ -602,7 +602,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted relaciona el requerimiento con información verificada y una dependencia competente antes de comunicar la orientación.',
+            'Usted relaciona el requerimiento con información verificada y una dependencia competente antes de comunicar la orientación.',
           mensaje_incorrecto:
             'Revise la gestión de requerimientos del capítulo 4. Analice la necesidad y confirme la competencia antes de realizar la remisión.',
         },
@@ -639,7 +639,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted ejerce autocontrol al verificar la calidad y conformidad de su actuación antes de direccionar el requerimiento.',
+            'Usted ejerce autocontrol al verificar la calidad y conformidad de su actuación antes de direccionar el requerimiento.',
           mensaje_incorrecto:
             'Revise el Sistema Integrado de Gestión y Autocontrol en el capítulo 5. Reconozca su responsabilidad al aplicar y verificar los procedimientos.',
         },
@@ -676,7 +676,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted reconoce que un indicador requiere un propósito, información verificable y un criterio de comparación para apoyar la gestión.',
+            'Usted reconoce que un indicador requiere un propósito, información verificable y un criterio de comparación para apoyar la gestión.',
           mensaje_incorrecto:
             'Revise indicadores de calidad en el capítulo 5. Evite interpretar un porcentaje aislado de su significado y referente.',
         },
@@ -713,7 +713,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted previene una remisión incorrecta al controlar el riesgo antes de que afecte la orientación.',
+            'Usted previene una remisión incorrecta al controlar el riesgo antes de que afecte la orientación.',
           mensaje_incorrecto:
             'Revise gestión del riesgo y acciones preventivas en el capítulo 5. Actúe sobre la posible causa antes de remitir.',
         },
@@ -750,7 +750,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Usted relaciona la mejora con intervenir la causa del problema y comprobar que el ajuste produzca el resultado esperado.',
+            'Usted relaciona la mejora con intervenir la causa del problema y comprobar que el ajuste produzca el resultado esperado.',
           mensaje_incorrecto:
             'Repase acciones correctivas y mejora del capítulo 5. Distinga solucionar un caso de intervenir la causa de su repetición.',
         },

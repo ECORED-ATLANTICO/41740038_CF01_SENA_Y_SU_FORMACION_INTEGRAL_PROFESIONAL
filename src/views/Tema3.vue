@@ -47,7 +47,7 @@
     .row.justify-content-center.mb-4.z-2
       .col-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 4.
+          h5 Tabla 5.
           span Referentes normativos del SENA 
         .tabla-a.color-primario.tabla-a--text-left.mb-2
           table
@@ -100,11 +100,11 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.px-xl-5
-                  p.mb-0 Para ampliar, explore este documento audiovisual histórico para reconocer cómo se presentaban la organización, los objetivos y el funcionamiento del SENA en un momento de su evolución institucional. Recuerde que la estructura y la normativa mencionadas corresponden a su contexto de producción y deben contrastarse con las disposiciones vigentes. 
+                  p.mb-0 Para ampliar: este otro video Historia del SENA, que hace parte de la inducción de los aprendices es un documento audiovisual histórico que le permitirá reconocer cómo se presentaban la organización, los objetivos y el funcionamiento del SENA en un momento de su evolución institucional. Recuerde que la estructura y la normativa mencionadas corresponden a su contexto de producción y deben contrastarse con las disposiciones vigentes. 
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://repositorio.sena.edu.co/bitstream/handle/11404/1212/UM2708.mp4?sequence=1&isAllowed=y" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=p1kCdcKTuWg" target="_blank")
                     span Ir al recurso
-                    i.fas.fa-file-download
+                    i.fas.fa-file-video
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -295,7 +295,7 @@
     .row.justify-content-center.z-2
       .col-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 5.
+          h5 Tabla 6.
           span Gestión responsable de la información
         .tabla-a.color-primario.tabla-a--text-left.mb-2
           table
@@ -329,15 +329,19 @@
       .col-lg-9
         p El cumplimiento de una norma no depende únicamente de conocer su contenido. También requiere comportamientos coherentes con las responsabilidades propias del servicio público. En este sentido, la integridad complementa el marco jurídico al proporcionar referentes éticos para la actuación institucional. 
         .bg-img.bg-img--3.rounded-4.p-4.mb-4.mb-lg-0.py-3
-          p.mb-0 El Código de Integridad del servidor público y el Código de Integridad SENA, son referentes orientan la manera como las personas vinculadas con la entidad deben relacionarse con los recursos públicos, la información institucional, los ciudadanos y los demás integrantes de la organización. 
+          p.mb-0 El Código de Integridad del servidor público y el Código de Integridad SENA, son referentes que orientan la manera como las personas vinculadas con la entidad deben relacionarse con los recursos públicos, la información institucional, los ciudadanos y los demás integrantes de la organización. 
       .col-sm-6.col-lg-3
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema3/18.png", alt="")
 
+    .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto Integridad en la gestión: situaciones aplicadas 
+
     .row.justify-content-center.align-items-center.z-2.mb-4
       .col-xl-3
         p Por ejemplo, actuar con integridad implica que la información suministrada sea veraz, que un requerimiento sea tratado sin favorecer intereses particulares, que los procedimientos se apliquen oportunamente y que los recursos institucionales se utilicen para los fines establecidos. 
-        p.mb-xl-0 Integridad en la gestión: situaciones aplicadas 
       .col-xl-9
         TabsA.color-primario.mb-0.custom-tabs
           .tarjeta.bg-primario-p5.p-4(titulo="Información institucional")
@@ -362,7 +366,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema5/14.svg", alt="" data-aos="zoom-in-down")
       .col-lg-11
-        p Para orientar requerimientos institucionales resulta, por tanto, necesario integrar estos elementos: #[strong consultar la norma aplicable, identificar el proceso, verificar el procedimiento, utilizar información institucional vigente y actuar con integridad.]
+        p Para orientar requerimientos institucionales resulta, por tanto, necesario integrar estos elementos: consultar la norma aplicable, identificar el proceso, verificar el procedimiento, utilizar información institucional vigente y actuar con integridad.
         p.mb-0 Esta articulación responde directamente a los criterios del resultado de aprendizaje relacionados con la aplicación de procedimientos y con la corroboración de fuentes institucionales. 
 
 
