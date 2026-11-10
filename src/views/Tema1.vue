@@ -242,7 +242,7 @@
               img.imgw-61(src="@/assets/curso/tema1/18.svg", alt="" data-aos="zoom-in-down")
             .col-lg-11
               p.mb-0 Conocer la naturaleza jurídica del SENA permite comprender el lugar que ocupa dentro de la organización del Estado colombiano y la responsabilidad pública que orienta su actuación. De igual manera, reconocer las bases de su financiación ayuda a entender cómo la entidad dispone de recursos para cumplir su misión y sostener los procesos de Formación Profesional Integral. 
-        p.mb-4.mb-lg-0 Desde su origen, el SENA fue concebido como una institución pública vinculada con la formación de los trabajadores. Su actuación y campo de acción están relacionado con el artículo 54 de la Constitución Política, la Ley 119 de 1994 y el Decreto 249 de 2004.  
+        p.mb-4.mb-lg-0 Desde su origen, el SENA fue concebido como una institución pública vinculada con la formación de los trabajadores. Su actuación y campo de acción están relacionados con el artículo 54 de la Constitución Política, la Ley 119 de 1994 y el Decreto 249 de 2004.  
       .col-sm-6.col-lg-3
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema1/19.png", alt="")

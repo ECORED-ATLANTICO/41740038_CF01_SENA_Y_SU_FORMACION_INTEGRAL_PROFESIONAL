@@ -267,6 +267,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.px-xl-5
+                  h5 OnBase más que un sistema de gestión documental
                   p Para ampliar: conozca, a través de este video titulado OnBase más que un sistema de gestión documental, la evolución de la gestión documental en el SENA y su relación con la administración de la información y el conocimiento institucional.  
                   p.mb-0 Consulte el recurso audiovisual en el siguiente enlace:
                 .col-sm-auto
@@ -285,10 +286,10 @@
     .row.justify-content-center.align-items-center.z-2.mb-3
       .col-12
         .titulo-sexto.color-acento-contenido
-          h5 Figura 3.
+          h5 Figura 2.
           span Canales y flujos informativos
-        img.mb-4.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/21-mob.svg", alt="La figura 3 describe los canales y flujos informativos que recorre un requerimiento sus diferentes momentos de evolución, los cuales van desde la recepción del mismo, la identificación del asunto, la consulta de la información, la determinación del responsable, el direccionamiento o gestión del mismo, la comunicación de la información, y el registro y seguimiento del mismo.")
-        img.mb-4.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/21.svg", alt="La figura 3 describe los canales y flujos informativos que recorre un requerimiento sus diferentes momentos de evolución, los cuales van desde la recepción del mismo, la identificación del asunto, la consulta de la información, la determinación del responsable, el direccionamiento o gestión del mismo, la comunicación de la información, y el registro y seguimiento del mismo.")
+        img.mb-4.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/21-mob.svg", alt="La figura 2 describe los canales y flujos informativos que recorre un requerimiento sus diferentes momentos de evolución, los cuales van desde la recepción del mismo, la identificación del asunto, la consulta de la información, la determinación del responsable, el direccionamiento o gestión del mismo, la comunicación de la información, y el registro y seguimiento del mismo.")
+        img.mb-4.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/21.svg", alt="La figura 2 describe los canales y flujos informativos que recorre un requerimiento sus diferentes momentos de evolución, los cuales van desde la recepción del mismo, la identificación del asunto, la consulta de la información, la determinación del responsable, el direccionamiento o gestión del mismo, la comunicación de la información, y el registro y seguimiento del mismo.")
 
     .row.justify-content-center.align-items-center.mb-5.z-2
       .col-xl-10

@@ -218,6 +218,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.px-xl-5
+                  h5 Sistema Integrado de Gestión y Autocontrol (SIGA)
                   p.mb-0 Para ampliar: fortalezca la comprensión de la gestión del riesgo mediante este la consulta de este video Sistema Integrado de Gestión y Autocontrol (SIGA), que presenta orientaciones relacionadas con la calificación de controles en el marco del Sistema Integrado de Gestión y Autocontrol. 
                   p.mb-0 Consulte el video en el siguiente enlace: 
                 .col-sm-auto
@@ -357,7 +358,7 @@
               TarjetaAudio.mb-3.color-primario(
                 texto=" ¿Cómo orientar correctamente un requerimiento institucional en el SENA?"
                 tiempo
-                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
+                :audio="require_src('@/assets/curso/podcast/41740038_CF01_Podcast_02.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
 

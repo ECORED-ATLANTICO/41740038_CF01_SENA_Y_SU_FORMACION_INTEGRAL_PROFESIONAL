@@ -364,7 +364,7 @@
     .row.justify-content-center.align-items-center.z-2
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 2.
+          h5 Figura 1.
           span  Articulación de la formación
         img.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/28-mob.svg", alt="El diagrama ilustra la Formación Profesional Integral con sus tres relaciones principales: sistema educativo, sectores productivos y sociedad y territorios.")
         img.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/28.svg", alt="El diagrama ilustra la Formación Profesional Integral con sus tres relaciones principales: sistema educativo, sectores productivos y sociedad y territorios.")
@@ -481,7 +481,7 @@
               TarjetaAudio.mb-3.color-primario(
                 texto=" El SENA y la Formación Profesional Integral: formación para el trabajo y el desarrollo humano."
                 tiempo
-                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
+                :audio="require_src('@/assets/curso/podcast/41740038_CF01_Podcast_01.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
 
