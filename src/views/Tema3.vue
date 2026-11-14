@@ -90,21 +90,15 @@
 
     p.mb-4 Para orientar un requerimiento no es suficiente identificar una norma por su título. También es necesario verificar #[strong su vigencia, alcance y relación con el asunto consultado]. Por ello, el diseño curricular incluye expresamente como saber de proceso la verificación de la vigencia de la información institucional. 
 
-    .row.justify-content-center.z-2
+    .row.justify-content-center.z-2.mb-5
       .col-xl-10
-        .tarjeta.bg-video.p-4
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.position-relative.d-none.d-xl-block
-              figure
-                img.imgw-61(src="@/assets/curso/common/video.png")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.px-xl-5
-                  p.mb-0 Para ampliar: este otro video Historia del SENA, que hace parte de la inducción de los aprendices es un documento audiovisual histórico que le permitirá reconocer cómo se presentaban la organización, los objetivos y el funcionamiento del SENA en un momento de su evolución institucional. Recuerde que la estructura y la normativa mencionadas corresponden a su contexto de producción y deben contrastarse con las disposiciones vigentes. 
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=p1kCdcKTuWg" target="_blank")
-                    span Ir al recurso
-                    i.fas.fa-file-video
+        .bg-terciario-t5.p-4.rounded-4
+          p.mb-0 Para ampliar: este otro video Historia del SENA, que hace parte de la inducción de los aprendices es un documento audiovisual histórico que le permitirá reconocer cómo se presentaban la organización, los objetivos y el funcionamiento del SENA en un momento de su evolución institucional. Recuerde que la estructura y la normativa mencionadas corresponden a su contexto de producción y deben contrastarse con las disposiciones vigentes. 
+
+    figure
+      .video.mb-2
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/p1kCdcKTuWg" title="Historia del SENA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Historia del SENA
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -334,24 +328,22 @@
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema3/18.png", alt="")
 
+    p.mb-5 Por ejemplo, actuar con integridad implica que la información suministrada sea veraz, que un requerimiento sea tratado sin favorecer intereses particulares, que los procedimientos se apliquen oportunamente y que los recursos institucionales se utilicen para los fines establecidos. 
+
     .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
         h3.titulo-con-imagen__texto Integridad en la gestión: situaciones aplicadas 
 
-    .row.justify-content-center.align-items-center.z-2.mb-4
-      .col-xl-3
-        p Por ejemplo, actuar con integridad implica que la información suministrada sea veraz, que un requerimiento sea tratado sin favorecer intereses particulares, que los procedimientos se apliquen oportunamente y que los recursos institucionales se utilicen para los fines establecidos. 
-      .col-xl-9
-        TabsA.color-primario.mb-0.custom-tabs
-          .tarjeta.bg-primario-p5.p-4(titulo="Información institucional")
-            p.mb-0 Antes de comunicar información, se verifica la fuente y su vigencia para evitar suministrar datos incorrectos o desactualizados. 
-          .tarjeta.bg-primario-p5.p-4(titulo="Direccionamiento")
-            p.mb-0 Un requerimiento se remite a la dependencia competente de acuerdo con el procedimiento, sin favorecer intereses particulares. 
-          .tarjeta.bg-primario-p5.p-4(titulo="Tratamiento documental")
-            p.mb-0 Los documentos y datos se administran de acuerdo con las condiciones de acceso, seguridad y confidencialidad establecidas. 
-          .tarjeta.bg-primario-p5.p-4(titulo="Servicio institucional")
-            p.mb-0 La atención se realiza con oportunidad, respeto y responsabilidad, procurando que la persona reciba una orientación pertinente.
+    TabsA.color-primario.mb-0.custom-tabs
+      .tarjeta.bg-primario-p5.p-4(titulo="Información institucional")
+        p.mb-0 Antes de comunicar información, se verifica la fuente y su vigencia para evitar suministrar datos incorrectos o desactualizados. 
+      .tarjeta.bg-primario-p5.p-4(titulo="Direccionamiento")
+        p.mb-0 Un requerimiento se remite a la dependencia competente de acuerdo con el procedimiento, sin favorecer intereses particulares. 
+      .tarjeta.bg-primario-p5.p-4(titulo="Tratamiento documental")
+        p.mb-0 Los documentos y datos se administran de acuerdo con las condiciones de acceso, seguridad y confidencialidad establecidas. 
+      .tarjeta.bg-primario-p5.p-4(titulo="Servicio institucional")
+        p.mb-0 La atención se realiza con oportunidad, respeto y responsabilidad, procurando que la persona reciba una orientación pertinente.
 
     p.mb-4.z-2 Estas situaciones muestran que la integridad no constituye un contenido separado de la gestión: se refleja en la manera como se aplica la normativa, se utiliza la información y se desarrollan los procedimientos.
 

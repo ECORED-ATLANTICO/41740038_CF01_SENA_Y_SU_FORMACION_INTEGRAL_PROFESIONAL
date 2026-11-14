@@ -104,23 +104,15 @@
 
     p.mb-5.z-2 Esta capacidad resulta especialmente importante en entornos laborales caracterizados por cambios tecnológicos, nuevas formas de organización y transformaciones en los perfiles ocupacionales. 
 
-    .row.justify-content-center.z-2
+    .row.justify-content-center.z-2.mb-5
       .col-xl-10
-        .tarjeta.bg-video.p-4
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.position-relative.d-none.d-xl-block
-              figure
-                img.imgw-61(src="@/assets/curso/common/video.png")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.px-xl-5
-                  h5 El SENA forma líderes valiosos para la producción industrial
-                  p Para ampliar: explore el programa Tecnólogo en Gestión de la Producción Industrial del CDTI del SENA mediante el recurso audiovisual El SENA forma líderes valiosos para la producción industrial. Observe cómo este perfil profesional capacita a los aprendices para lograr impacto en el desarrollo económico, social y tecnológico de su entorno.   
-                  p.mb-0 Consulte el video en el siguiente enlace:
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=4A40DOK6wZ8" target="_blank")
-                    span Ir al recurso
-                    i.fas.fa-file-download
+        .bg-terciario-t5.p-4.rounded-4
+          p.mb-0 Para ampliar: explore el programa Tecnólogo en Gestión de la Producción Industrial del CDTI del SENA mediante el recurso audiovisual El SENA forma líderes valiosos para la producción industrial. Revise cómo este perfil profesional capacita a los aprendices para lograr impacto en el desarrollo económico, social y tecnológico de su entorno.   
+
+    figure
+      .video.mb-2
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/4A40DOK6wZ8" title="l SENA forma líderes valiosos para la producción industrial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: El SENA forma líderes valiosos para la producción industrial
 
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -348,24 +340,17 @@
           .p-4
             p.mb-0(data-aos="fade-up") La vinculación con los sectores productivos constituye un elemento central de la FPI. Las necesidades de las empresas, trabajadores, territorios y actividades económicas aportan referentes para identificar transformaciones ocupacionales y tecnológicas que deben ser consideradas en la formación. El Estatuto establece precisamente que los currículos se relacionan con las necesidades y perspectivas de estos sectores y con la demanda social. 
 
-    p.mb-5 Esta relación permite mantener la pertinencia de la formación frente a cambios en tecnologías, procesos productivos y perfiles ocupacionales. 
+    p.mb-4 Esta relación permite mantener la pertinencia de la formación frente a cambios en tecnologías, procesos productivos y perfiles ocupacionales. 
 
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
-        .titulo-con-imagen(data-aos="fade-right")
-          .titulo-con-imagen__fondo
-            img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
-            h3.titulo-con-imagen__texto Articulación de la formación 
-
-    .row.justify-content-center.align-items-center.z-2.mb-5
-      .col-xl-10
-        p La pertinencia de la Formación Profesional Integral depende de su capacidad para relacionar las necesidades de las personas, los territorios y los sectores productivos con las oportunidades de formación y desarrollo. 
 
     .row.justify-content-center.align-items-center.z-2
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
           span  Articulación de la formación
+        p La pertinencia de la Formación Profesional Integral depende de su capacidad para relacionar las necesidades de las personas, los territorios y los sectores productivos con las oportunidades de formación y desarrollo. 
         img.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/28-mob.svg", alt="El diagrama ilustra la Formación Profesional Integral con sus tres relaciones principales: sistema educativo, sectores productivos y sociedad y territorios.")
         img.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/28.svg", alt="El diagrama ilustra la Formación Profesional Integral con sus tres relaciones principales: sistema educativo, sectores productivos y sociedad y territorios.")
 

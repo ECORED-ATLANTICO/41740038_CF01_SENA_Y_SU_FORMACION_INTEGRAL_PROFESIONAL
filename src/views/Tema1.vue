@@ -68,8 +68,6 @@
 
     p.mb-4.z-2 El SENA no surgió como un hecho aislado. Su creación estuvo precedida por transformaciones económicas, laborales e institucionales que evidenciaron la necesidad de fortalecer la formación de los trabajadores. Recorra los siguientes momentos para comprender este contexto. 
 
-    p.mb-4.z-2 Los principios orientan el propósito de la Formación Profesional Integral y permiten comprender su relación con el trabajo, la sociedad y el desarrollo de las personas. 
-
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-9
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-secundario-s5")
@@ -213,22 +211,15 @@
             .col-xl-9
               p.mb-0 #[strong Frase para reflexionar:] la historia institucional no consiste únicamente en recordar fechas. Los hitos adquieren sentido cuando permiten relacionar los cambios del entorno con las transformaciones del SENA y con la evolución de la Formación Profesional Integral. 
 
-    .row.justify-content-center.z-2
+    .row.justify-content-center.z-2.mb-5
       .col-xl-10
-        .tarjeta.bg-video.p-4
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.position-relative.d-none.d-xl-block
-              figure
-                img.imgw-61(src="@/assets/curso/common/video.png")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.px-xl-5
-                  p Para ampliar: conozca algunos aspectos relacionados con el origen del SENA y su evolución histórica a partir de lo que relata este video titulado Historia del SENA. 
-                  p.mb-0 Consulte el video en el siguiente enlace:  
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=B3b7T6-h8i4" target="_blank")
-                    span Ir al recurso
-                    i.fas.fa-file-download
+        .bg-terciario-t5.p-4.rounded-4
+          p.mb-0 Para ampliar: conozca algunos aspectos relacionados con el origen del SENA y su evolución histórica a partir de lo que relata este video titulado Historia del SENA. 
+
+    figure
+      .video.mb-2
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/B3b7T6-h8i4" title="La historia del SENA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: La historia del SENA
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")

@@ -257,23 +257,15 @@
 
     p.mb-4.z-2 Este procedimiento resulta especialmente importante cuando se trabaja con normativa, procedimientos, formatos, directorios o lineamientos susceptibles de actualización. 
 
-    .row.justify-content-center.z-2
-      .col-xl-10
-        .tarjeta.bg-video.p-4
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.position-relative.d-none.d-xl-block
-              figure
-                img.imgw-61(src="@/assets/curso/common/video.png")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.px-xl-5
-                  h5 OnBase más que un sistema de gestión documental
-                  p Para ampliar: conozca, a través de este video titulado OnBase más que un sistema de gestión documental, la evolución de la gestión documental en el SENA y su relación con la administración de la información y el conocimiento institucional.  
-                  p.mb-0 Consulte el recurso audiovisual en el siguiente enlace:
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=mEHpABkjMb4" target="_blank")
-                    span Ir al recurso
-                    i.fas.fa-file-video
+    .row.justify-content-center.z-2.mb-5
+      .col-xl-12
+        .bg-terciario-t5.p-4.rounded-4
+          p.mb-0 Para ampliar: conozca, a través de este video titulado OnBase más que un sistema de gestión documental, la evolución de la gestión documental en el SENA y su relación con la administración de la información y el conocimiento institucional.  
+
+    figure
+      .video.mb-2
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/mEHpABkjMb4" title="OnBase más que un sistema de gestión documental" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: OnBase más que un sistema de gestión documental
 
     separador
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -306,7 +298,7 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/tema4/22.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 ELa comunicación de información debe ser clara, pertinente y consistente con las fuentes consultadas. Cuando una persona transmite información institucional, debe diferenciar entre: información confirmada, sustentada en una fuente vigente y competente, e información pendiente de validación, que requiere consulta adicional antes de ser comunicada como respuesta institucional. 
+        p.mb-0 La comunicación de información debe ser clara, pertinente y consistente con las fuentes consultadas. Cuando una persona transmite información institucional, debe diferenciar entre: información confirmada, sustentada en una fuente vigente y competente, e información pendiente de validación, que requiere consulta adicional antes de ser comunicada como respuesta institucional. 
 
     p.mb-0.z-2 Esta distinción reduce el riesgo de orientar incorrectamente a usuarios, ciudadanos o integrantes de la entidad. 
 

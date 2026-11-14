@@ -295,31 +295,31 @@
           .tarjeta.p-4.pt-5.bg-cards.shadow-sm
             .row.justify-content-center.mb-3
               .col-6.col-sm-4.col-xl-5
-                img.imgw-95.mb-4(src='@/assets/curso/tema5/19.svg' alt='')
+                img.imgw-95.mb-4(src='@/assets/curso/tema1/71.svg' alt='')
             h5.mb-3.text-center Consultar
             p.mb-0.text-center Acceder a información institucional pertinente. 
           .tarjeta.p-4.pt-5.bg-cards.shadow-sm
             .row.justify-content-center.mb-3
               .col-6.col-sm-4.col-xl-5
-                img.imgw-95.mb-4(src='@/assets/curso/tema5/20.svg' alt='')
+                img.imgw-95.mb-4(src='@/assets/curso/tema1/72.svg' alt='')
             h5.mb-3.text-center Verificar
             p.mb-0.text-center Confirmar vigencia, competencia y procedimiento aplicable. 
           .tarjeta.p-4.pt-5.bg-cards.shadow-sm
             .row.justify-content-center.mb-3
               .col-6.col-sm-4.col-xl-5
-                img.imgw-95.mb-4(src='@/assets/curso/tema5/21.svg' alt='')
+                img.imgw-95.mb-4(src='@/assets/curso/tema1/73.svg' alt='')
             h5.mb-3.text-center Direccionar
             p.mb-0.text-center Remitir el requerimiento a la instancia correspondiente. 
           .tarjeta.p-4.pt-5.bg-cards.shadow-sm
             .row.justify-content-center.mb-3
               .col-6.col-sm-4.col-xl-5
-                img.imgw-95.mb-4(src='@/assets/curso/tema5/22.svg' alt='')
+                img.imgw-95.mb-4(src='@/assets/curso/tema1/74.svg' alt='')
             h5.mb-3.text-center Registrar
             p.mb-0.text-center Conservar las evidencias requeridas por el procedimiento. 
           .tarjeta.p-4.pt-5.bg-cards.shadow-sm
             .row.justify-content-center.mb-3
               .col-6.col-sm-4.col-xl-5
-                img.imgw-95.mb-4(src='@/assets/curso/tema5/23.svg' alt='')
+                img.imgw-95.mb-4(src='@/assets/curso/tema1/75.svg' alt='')
             h5.mb-3.text-center Revisar
             p.mb-0.text-center Comprobar el desarrollo y resultado de la actuación cuando corresponda. 
           .tarjeta.p-4.pt-5.bg-cards.shadow-sm
