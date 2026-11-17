@@ -342,15 +342,13 @@
 
     p.mb-4 Esta relación permite mantener la pertinencia de la formación frente a cambios en tecnologías, procesos productivos y perfiles ocupacionales. 
 
-    .row.justify-content-center.align-items-center.z-2.mb-5
-      .col-xl-10
+    p.mb-4 La pertinencia de la Formación Profesional Integral depende de su capacidad para relacionar las necesidades de las personas, los territorios y los sectores productivos con las oportunidades de formación y desarrollo. 
 
     .row.justify-content-center.align-items-center.z-2
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
           span  Articulación de la formación
-        p La pertinencia de la Formación Profesional Integral depende de su capacidad para relacionar las necesidades de las personas, los territorios y los sectores productivos con las oportunidades de formación y desarrollo. 
         img.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/28-mob.svg", alt="El diagrama ilustra la Formación Profesional Integral con sus tres relaciones principales: sistema educativo, sectores productivos y sociedad y territorios.")
         img.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/28.svg", alt="El diagrama ilustra la Formación Profesional Integral con sus tres relaciones principales: sistema educativo, sectores productivos y sociedad y territorios.")
 

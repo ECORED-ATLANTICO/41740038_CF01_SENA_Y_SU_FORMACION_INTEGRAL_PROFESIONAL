@@ -415,7 +415,7 @@ export default {
         {
           nombre: 'Emilse Sugey Camacho Mosquera',
           cargo: 'Equipo de diseño curricular',
-          centro: 'Centro Náutico Pesquero de Buenaventura - Regional valle',
+          centro: 'Centro Náutico Pesquero de Buenaventura - Regional Valle',
         },
         {
           nombre: 'German Ramírez',
