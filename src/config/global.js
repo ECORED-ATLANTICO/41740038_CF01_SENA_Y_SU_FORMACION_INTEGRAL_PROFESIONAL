@@ -344,6 +344,11 @@ export default {
   referencias: [
     {
       referencia:
+        'Congreso de Colombia. (1961, 16 de diciembre). Ley 141 de 1961: Por la cual se adopta una legislación de emergencia y se dictan otras disposiciones. Diario Oficial n.º 30.694.',
+      link: 'https://normograma.sena.edu.co/compilacion/docs/ley_0141_1961.htm',
+    },
+    {
+      referencia:
         'Congreso de Colombia. (1994). Ley 119 de 1994, por la cual se reestructura el Servicio Nacional de Aprendizaje, SENA, se deroga el Decreto 2149 de 1992 y se dictan otras disposiciones. Diario Oficial No. 41.216.',
       link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=14930',
     },
@@ -368,8 +373,28 @@ export default {
     },
     {
       referencia:
+        'Junta Militar de Gobierno de la República de Colombia. (1957, 21 de junio). Decreto 118 de 1957 [Aumentos salariales, establecimiento del subsidio familiar y creación del Servicio Nacional de Aprendizaje]. Diario Oficial n.º 29.441.',
+      link: 'https://normograma.sena.edu.co/compilacion/docs/decreto_0118_1957.htm',
+    },
+    {
+      referencia:
+        'Junta Militar de Gobierno de la República de Colombia. (1957, 6 de agosto). Decreto 164 de 1957: Por el cual se organiza el Servicio Nacional de Aprendizaje (SENA) y se dictan otras disposiciones. Diario Oficial n.º 29.475.',
+      link: 'https://normograma.sena.edu.co/compilacion/docs/decreto_0164_1957.htm',
+    },
+    {
+      referencia:
         'Presidencia de la República de Colombia. (1957). Decreto 118 de 1957, por el cual se decretan aumentos de salarios, se establece el subsidio familiar y se crea el Servicio Nacional de Aprendizaje, SENA.',
       link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65462',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (1968, 26 de diciembre). Decreto 3123 de 1968: Por el cual se reorganiza el Servicio Nacional de Aprendizaje (SENA). Diario Oficial n.º 32.689.',
+      link: 'https://normograma.sena.edu.co/compilacion/docs/decreto_3123_1968.htm',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (1992, 30 de diciembre). Decreto 2149 de 1992: Por el cual se reestructura el Servicio Nacional de Aprendizaje, SENA. Diario Oficial n.º 40.703.',
+      link: 'https://normograma.sena.edu.co/compilacion/docs/decreto_2149_1992.htm',
     },
     {
       referencia:
@@ -378,20 +403,31 @@ export default {
     },
     {
       referencia:
+        'Presidencia de la República de Colombia. (2013, 15 de noviembre). Decreto 2520 de 2013: Por el cual se modifica la estructura del Servicio Nacional de Aprendizaje (Sena). Diario Oficial n.º 48.975.',
+      link: 'https://normograma.sena.edu.co/compilacion/docs/decreto_2520_2013.htm',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje, Consejo Directivo Nacional. (1985, 28 de agosto). Acuerdo 12 de 1985 [Lineamientos de política técnico-pedagógica y directrices para la Unidad Técnica institucional]. Normograma del SENA.',
+      link: 'https://normograma.sena.edu.co/compilacion/docs/acuerdo_sena_0012_1985.htm',
+    },
+    {
+      referencia:
         'Servicio Nacional de Aprendizaje [SENA]. (1997). Acuerdo 8 de 1997, por medio del cual se adopta el Estatuto de la Formación Profesional del Servicio Nacional de Aprendizaje. Consejo Directivo Nacional.',
       link: 'https://repositorio.sena.edu.co/handle/11404/1939',
     },
     {
       referencia:
-        'Servicio Nacional de Aprendizaje [SENA]. (2018). Acuerdo 5 de 2018, por el cual se emiten disposiciones sobre la Política de Integridad y el Código de Integridad para el SENA y se deroga el Acuerdo 002 de 2017. Consejo Directivo Nacional.',
-      link: '',
+        'Servicio Nacional de Aprendizaje [SENA]. (2018). Acuerdo 5 de 2018, por el cual se emiten disposiciones sobre la Política de Integridad y el Código de Integridad para el SENA y se deroga el Acuerdo 002 de 2017. Consejo Directivo Nacional. Consultar Acuerdo 5 de 2018 y Código de Integridad del SENA',
+      link: 'https://normograma.sena.edu.co/compilacion/docs/acuerdo_sena_0005_2018.htm',
     },
     {
       referencia:
-        'Servicio Nacional de Aprendizaje [SENA]. (s. f.). Normograma del Servicio Nacional de Aprendizaje (SENA).',
-      link: '',
+        'Servicio Nacional de Aprendizaje [SENA]. (s. f.). Normograma del Servicio Nacional de Aprendizaje (SENA). Consultar Normograma del SENA',
+      link: 'https://normograma.sena.edu.co/',
     },
   ],
+
   creditos: [
     {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
@@ -421,17 +457,17 @@ export default {
           nombre: 'German Ramírez',
           cargo: 'Instructor',
           centro:
-            'Centro De Formación Para El Desarrollo Rural Y Minero - Regional Norte De Santander',
+            'Centro de Formación para el Desarrollo Rural y Minero - Regional Norte De Santander',
         },
         {
           nombre: 'María Roció Malagon',
           cargo: 'Equipo de diseño curricular',
-          centro: 'Centro De La Construcción - Regional Valle',
+          centro: 'Centro de la Construcción - Regional Valle',
         },
         {
           nombre: 'Yanin Lorena Rojas',
           cargo: 'Instructora de pedagogía',
-          centro: 'Centro De Diseño Tecnológico Industrial - Regional Valle',
+          centro: 'Centro de Diseño Tecnológico Industrial - Regional Valle',
         },
         {
           nombre: 'María Fernanda Morales Angulo ',

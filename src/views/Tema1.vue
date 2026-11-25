@@ -99,7 +99,7 @@
             .col-lg-1.d-none.d-lg-block.p-0
               img.imgw-61(src="@/assets/curso/tema1/7.svg", alt="" data-aos="zoom-in-down")
             .col-lg-11
-              p.mb-0 El documento histórico El SENA a través del tiempo (Rodríguez, J. I. (2003), explica esta evolución a partir de la relación entre los cambios del entorno y las transformaciones experimentadas por la entidad. El autor plantea que aspectos como los instructores, los aprendices, los planes de estudio, los ambientes educativos y las metodologías de formación se han modificado para responder a diferentes condiciones tecnológicas, económicas, educativas y organizacionales.    
+              p.mb-0 El documento histórico El SENA a través del tiempo (Rodríguez, J. I. (2003)), explica esta evolución a partir de la relación entre los cambios del entorno y las transformaciones experimentadas por la entidad. El autor plantea que aspectos como los instructores, los aprendices, los planes de estudio, los ambientes educativos y las metodologías de formación se han modificado para responder a diferentes condiciones tecnológicas, económicas, educativas y organizacionales.    
 
     .bloque-texto-g.bloque-texto-g--inverso.color-terciario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -133,15 +133,15 @@
                 img.mb-4.mb-lg-0(src='@/assets/curso/tema1/9.svg', alt='')
             .col-lg-10
               h5 Creación del SENA
-              p.mb-0 El Decreto 118 de 1957 crea el Servicio Nacional de Aprendizaje (SENA) y establece las bases iniciales para su funcionamiento y financiación.
+              p.mb-0 El Decreto Legislativo 118 del 21 de junio de 1957 creó el Servicio Nacional de Aprendizaje (SENA), mediante su artículo 8, y estableció disposiciones iniciales para su financiación. Constituye el antecedente fundacional de la entidad; sus disposiciones deben interpretarse considerando las modificaciones y normas posteriores. 
 
           .row.align-items-center(titulo="1961")
             .col-4.col-lg-2
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/tema1/10.svg', alt='')
             .col-lg-10
-              h5 Permanencia jurídica
-              p.mb-0 La Ley 141 de 1961 convierte en legislación permanente disposiciones relacionadas con el Decreto 118 de 1957, contribuyendo a consolidar jurídicamente la existencia de la entidad.    
+              h5 Adopción de legislación permanente
+              p.mb-0 La Ley 141 del 16 de diciembre de 1961 adoptó como leyes los decretos legislativos expedidos bajo el artículo 121 de la Constitución entre el 9 de noviembre de 1949 y el 20 de julio de 1958, siempre que sus disposiciones no hubieran sido abolidas o modificadas por leyes posteriores. Esta medida comprendió el Decreto Legislativo 118 de 1957 y contribuyó a consolidar el fundamento jurídico del SENA.  
 
           .row.align-items-center(titulo="1968")
             .col-4.col-lg-2
@@ -149,39 +149,39 @@
                 img.mb-4.mb-lg-0(src='@/assets/curso/tema1/11.svg', alt='')
             .col-lg-10
               h5 Reorganización institucional
-              p.mb-0 El Decreto 3123 de 1968 reorganiza el SENA en el contexto de la reforma administrativa nacional y redefine aspectos relacionados con su naturaleza, funciones y estructura.  
+              p.mb-0 El Decreto 3123 del 26 de diciembre de 1968 reorganizó el SENA y reguló su naturaleza, objetivos, funciones y organización. Se conserva como antecedente histórico, dado que fue derogado por el artículo 42 del Decreto 2149 de 1992.   
 
           .row.align-items-center(titulo="1985")
             .col-4.col-lg-2
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/tema1/12.svg', alt='')
             .col-lg-10
-              h5 Unidad Técnica
-              p.mb-0 El desarrollo de la Unidad Técnica constituye un referente en la orientación técnico-pedagógica de la entidad. El documento histórico aportado la identifica como una carta de navegación para la política técnico-pedagógica institucional.  
+              h5 Lineamientos de Unidad Técnica
+              p.mb-0 El Acuerdo 12 del 28 de agosto de 1985 estableció los lineamientos fundamentales de la política técnico-pedagógica del SENA y las directrices para mantener la Unidad Técnica institucional. Constituye un referente en la evolución de la formación profesional integral y debe leerse en articulación con el Estatuto adoptado en 1997 y las disposiciones institucionales posteriores aplicables.  
 
           .row.align-items-center(titulo="1994")
             .col-4.col-lg-2
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/tema1/13.svg', alt='')
             .col-lg-10
-              h5 Transformación institucional
-              p.mb-0 La Ley 119 de 1994 introduce cambios relevantes en la organización y funciones del SENA. Su expedición se relaciona con posteriores transformaciones institucionales y de la formación profesional.  
+              h5 Reestructuración del SENA
+              p.mb-0 La Ley 119 del 9 de febrero de 1994 reestructuró el SENA, definió su naturaleza, misión, objetivos y funciones, y derogó el Decreto 2149 de 1992. Continúa siendo una norma central del marco jurídico institucional y debe consultarse considerando las disposiciones y decisiones judiciales posteriores que afectan su aplicación. 
 
           .row.align-items-center(titulo="1997")
             .col-4.col-lg-2
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/tema1/14.svg', alt='')
             .col-lg-10
-              h5 Estatuto de Formación
-              p.mb-0 La expedición del Estatuto de la Formación Profesional Integral constituye un referente para la concepción y orientación de la formación impartida por el SENA. El documento histórico identifica el Acuerdo 00008 de 1997 como fuente del Estatuto.  
+              h5 Estatuto de la Formación Profesional Integral
+              p.mb-0 El Acuerdo 8 del 20 de marzo de 1997 adoptó el Estatuto de la Formación Profesional Integral del SENA, que establece fundamentos, principios, características y orientaciones del proceso formativo institucional. Se mantiene como referente normativo y pedagógico; en las fuentes oficiales consultadas no se identificó una derogatoria expresa del acuerdo.  
 
           .row.align-items-center(titulo="2004")
             .col-4.col-lg-2
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/tema1/15.svg', alt='')
             .col-lg-10
-              h5 Estructura institucional
-              p.mb-0 El Decreto 249 de 2004 constituye otro referente normativo para la organización de la entidad y será abordado posteriormente al estudiar su estructura institucional. La documentación normativa suministrada lo incorpora dentro de las disposiciones relacionadas con la trayectoria organizacional del SENA.  
+              h5 Estructura institucional y modificación posterior
+              p.mb-0 El Decreto 249 del 28 de enero de 2004 modificó la estructura del SENA y determinó las funciones de sus dependencias. Continúa siendo referente normativo de la organización institucional, con las modificaciones introducidas por el Decreto 2520 del 15 de noviembre de 2013, relacionadas con las competencias de la entidad en materia de empleo. 
 
     .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -319,7 +319,7 @@
               .col-6.col-sm-4.col-xl-5
                 img.imgw-95.mb-4(src='@/assets/curso/tema1/27.svg' alt='')
             h5.mb-3.text-center Sector Trabajo
-            p.mb-0.text-center La Formación Profesional Integral del SENA mantiene una relación histórica con el mundo laboral y con el sector Trabajo. Esta vinculación responde al propósito de desarrollar capacidades que favorezcan la participación de las personas en las actividades productivas. 
+            p.mb-0.text-center La Formación Profesional Integral del SENA mantiene una relación histórica con el mundo laboral y con el sector trabajo. Esta vinculación responde al propósito de desarrollar capacidades que favorezcan la participación de las personas en las actividades productivas. 
           .tarjeta.p-4.pt-5.bg-cards.shadow-sm
             .row.justify-content-center.mb-3
               .col-6.col-sm-4.col-xl-5
@@ -385,7 +385,7 @@
     .row.justify-content-center.align-items-center.mb-5.z-2
       .col-xl-10
         .cajon.color-acento-contenido.p-4.z-2
-          p.mb-0 La tabla anterior, no pretende presentar estos conceptos como independientes. La naturaleza pública de la entidad determina la manera como se administran los recursos, mientras que la financiación y el presupuesto permiten materializar las acciones necesarias para el cumplimiento de su misión. 
+          p.mb-0 La tabla anterior no pretende presentar estos conceptos como independientes. La naturaleza pública de la entidad determina la manera como se administran los recursos, mientras que la financiación y el presupuesto permiten materializar las acciones necesarias para el cumplimiento de su misión. 
 
     .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -400,7 +400,7 @@
             .col-lg-1.d-none.d-lg-block.p-0
               img.imgw-61(src="@/assets/curso/tema1/33.svg", alt="" data-aos="zoom-in-down")
             .col-lg-11
-              p.mb-0 El Decreto 164 de 1957 desarrolló aspectos administrativos iniciales; el Decreto 3123 de 1968 reorganizó la entidad; la Ley 119 de 1994 constituye un referente central para su reestructuración y misión; y el Decreto 249 de 2004 modificó posteriormente su estructura organizacional y estableció funciones para diferentes niveles y dependencias. 
+              p.mb-0 En la evolución normativa del SENA, el Decreto 164 de 1957 estableció su organización inicial y reguló su naturaleza, objeto, dirección y administración. Posteriormente, el Decreto 3123 de 1968 reorganizó la entidad y subrogó aquella regulación; este último fue derogado por el Decreto 2149 de 1992. La Ley 119 de 1994 reestructuró el SENA, definió su naturaleza, misión, objetivos y funciones, y derogó el Decreto 2149 de 1992. Por su parte, el Decreto 249 de 2004 modificó la estructura institucional y estableció funciones para sus órganos y dependencias; su aplicación debe considerar las modificaciones introducidas por el Decreto 2520 de 2013. Estas disposiciones permiten distinguir los antecedentes históricos de organización de la entidad de las normas que sustentan su marco institucional actual.
         p.mb-0 Estos referentes permiten identificar una continuidad: aunque la estructura institucional ha experimentado transformaciones, la Formación Profesional Integral y su relación con el desarrollo de los trabajadores y los sectores productivos permanecen como ejes fundamentales de la actuación del SENA. 
       .col-lg-2.d-none.d-lg-block
         figure
@@ -535,7 +535,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema5/12.svg", alt="" data-aos="zoom-in-down")
       .col-lg-11
-        p.mb-0 Entre los principios institucionales adoptados por el SENA se encuentran primero la vida; la dignidad del ser humano; la libertad con responsabilidad; la prevalencia del bien común sobre los intereses particulares; y la formación para la vida y el trabajo. Estos principios orientan la relación de la comunidad institucional consigo misma, con otras personas y con el entorno. 
+        p.mb-0 Entre los principios institucionales adoptados por el SENA se encuentran primero la vida, la dignidad del ser humano, la libertad con responsabilidad, la prevalencia del bien común sobre los intereses particulares y la formación para la vida y el trabajo. Estos principios orientan la relación de la comunidad institucional consigo misma, con otras personas y con el entorno. 
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6
@@ -716,7 +716,7 @@
             .col-lg-1.d-none.d-lg-block.p-0
               img.imgw-61(src="@/assets/curso/tema1/60.svg", alt="" data-aos="zoom-in-down")
             .col-lg-11
-              p.mb-0 En términos prácticos, esta distribución de competencias permite evitar que una solicitud sea enviada indistintamente a cualquier área. Antes de direccionar un requerimiento es necesario identificar su naturaleza, establecer qué proceso institucional se encuentra relacionado y determinar cuál dependencia tiene competencia para atenderlo. 
+              p.mb-0 En términos prácticos, esta distribución de competencias permite evitar que una solicitud sea enviada indistintamente a cualquier área. Antes de direccionar un requerimiento, es necesario identificar su naturaleza, establecer qué proceso institucional se encuentra relacionado y determinar cuál dependencia tiene competencia para atenderlo. 
       .col-sm-6.col-lg-3.d-none.d-lg-block
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema1/59.png", alt="")
@@ -754,7 +754,7 @@
     .row.justify-content-center.align-items-center.mb-5.z-2
       .col-xl-10
         .cajon.color-acento-contenido.p-4.z-2
-          p.mb-0 La tabla anterior, muestra que conocer la estructura no tiene un propósito meramente descriptivo. Su principal utilidad consiste en relacionar el requerimiento con el nivel y la dependencia que poseen competencia para atenderlo. 
+          p.mb-0 La tabla anterior muestra que conocer la estructura no tiene un propósito meramente descriptivo. Su principal utilidad consiste en relacionar el requerimiento con el nivel y la dependencia que poseen competencia para atenderlo. 
 
     .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
       .titulo-con-imagen__fondo

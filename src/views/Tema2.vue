@@ -320,7 +320,7 @@
               img.imgw-61(src="@/assets/curso/tema2/25.svg", alt="" data-aos="zoom-in-down")
             .col-lg-11
               p.mb-0 A lo largo de su trayectoria, el SENA ha establecido mecanismos de articulación con el sistema educativo colombiano. La Ley General de Educación y otras disposiciones han generado espacios de relación entre la formación impartida por la entidad y diferentes niveles y modalidades educativas. 
-        p El análisis académico aportado señala que históricamente la FPI se ha caracterizado por mantener una identidad propia frente a la educación formal, aunque al mismo tiempo se han desarrollado mecanismos de articulación entre ambos ámbitos.  
+        p El análisis académico aportado señala que, históricamente, la FPI se ha caracterizado por mantener una identidad propia frente a la educación formal, aunque al mismo tiempo se han desarrollado mecanismos de articulación entre ambos ámbitos.  
         p.mb-0 Esta relación permite favorecer trayectorias de formación, reconocimiento de aprendizajes y oportunidades de cualificación, sin desconocer las particularidades que caracterizan la Formación Profesional Integral. 
       .col-sm-6.col-lg-3.d-none.d-lg-block
         figure
@@ -377,7 +377,7 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/tema2/30.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Esto implica que el aprendizaje no puede permanecer estático. La persona debe desarrollar capacidad para apropiarse de nuevas tecnologías y utilizarlas de manera pertinente dentro de su contexto laboral. Por ello el SENA ha ido incorporando recursos digitales, bibliotecas conectadas, observatorios tecnológicos y herramientas para apoyar procesos de formación y virtualización.  
+        p.mb-0 Esto implica que el aprendizaje no puede permanecer estático. La persona debe desarrollar capacidad para apropiarse de nuevas tecnologías y utilizarlas de manera pertinente dentro de su contexto laboral. Por ello, el SENA ha ido incorporando recursos digitales, bibliotecas conectadas, observatorios tecnológicos y herramientas para apoyar procesos de formación y virtualización.  
 
     .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
       .titulo-con-imagen__fondo

@@ -19,7 +19,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema4/2.png", alt="" data-aos="zoom-in-down")
       .col-lg-9
-        p Es así como, el aprendiz debe reconocer los tipos de información institucional, las fuentes internas y externas, los sistemas de información, los protocolos de manejo, clasificación y actualización, la seguridad y confidencialidad de los datos, los canales de atención y el flujo de información. Asimismo, debe consultar información institucional, utilizar aplicativos del SENA, comunicar información y verificar su vigencia.
+        p Es así como el aprendiz debe reconocer los tipos de información institucional, las fuentes internas y externas, los sistemas de información, los protocolos de manejo, clasificación y actualización, la seguridad y confidencialidad de los datos, los canales de atención y el flujo de información. Asimismo, debe consultar información institucional, utilizar aplicativos del SENA, comunicar información y verificar su vigencia.
         .bg-img.bg-img--1.rounded-4.p-4
           .row.justify-content-center.align-items-center
             .col-lg-1.d-none.d-lg-block
@@ -114,7 +114,7 @@
         .bg-cards.rounded-4.p-4.overflow-hidden.h-100
           figure
             img.imgw-104.mb-4(src="@/assets/curso/tema4/11.svg", alt="")
-          p.mb-0.text-center #[strong Correspondencia: ] si responde realmente al requerimiento plantea.
+          p.mb-0.text-center #[strong Correspondencia: ] si responde realmente al requerimiento planteado.
   
     separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -298,7 +298,7 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/tema4/22.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La comunicación de información debe ser clara, pertinente y consistente con las fuentes consultadas. Cuando una persona transmite información institucional, debe diferenciar entre: información confirmada, sustentada en una fuente vigente y competente, e información pendiente de validación, que requiere consulta adicional antes de ser comunicada como respuesta institucional. 
+        p.mb-0 La comunicación de información debe ser clara, pertinente y consistente con las fuentes consultadas. Cuando una persona transmite información institucional, debe diferenciar entre información confirmada, sustentada en una fuente vigente y competente, e información pendiente de validación, que requiere consulta adicional antes de ser comunicada como respuesta institucional. 
 
     p.mb-0.z-2 Esta distinción reduce el riesgo de orientar incorrectamente a usuarios, ciudadanos o integrantes de la entidad. 
 

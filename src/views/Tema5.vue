@@ -219,7 +219,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.px-xl-5
                   h5 Sistema Integrado de Gestión y Autocontrol (SIGA)
-                  p.mb-0 Para ampliar: fortalezca la comprensión de la gestión del riesgo mediante este la consulta de este video Sistema Integrado de Gestión y Autocontrol (SIGA), que presenta orientaciones relacionadas con la calificación de controles en el marco del Sistema Integrado de Gestión y Autocontrol. 
+                  p.mb-0 Para ampliar: fortalezca la comprensión de la gestión del riesgo mediante la consulta de este video Sistema Integrado de Gestión y Autocontrol (SIGA), que presenta orientaciones relacionadas con la calificación de controles en el marco del Sistema Integrado de Gestión y Autocontrol. 
                   p.mb-0 Consulte el video en el siguiente enlace: 
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=QFUmCFmEM_o" target="_blank")

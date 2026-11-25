@@ -86,14 +86,14 @@
     .row.justify-content-center.z-2
       .col-lg-10.p-4(data-aos="fade-down")
         div.banner-text.shadow.mb-3
-          p.mb-0 Las disposiciones que orientan la gestión institucional tienen diferente naturaleza y alcance. La Constitución establece el marco superior; las leyes desarrollan materias de competencia legislativa; los decretos reglamentan o desarrollan disposiciones y estructuras; mientras los acuerdos, resoluciones y demás actos institucionales regulan asuntos específicos dentro de las competencias correspondientes. 
+          p.mb-0 Las disposiciones que orientan la gestión institucional tienen diferente naturaleza y alcance. La Constitución establece el marco superior; las leyes desarrollan materias de competencia legislativa; los decretos reglamentan o desarrollan disposiciones y estructuras, mientras los acuerdos, resoluciones y demás actos institucionales regulan asuntos específicos dentro de las competencias correspondientes. 
 
     p.mb-4 Para orientar un requerimiento no es suficiente identificar una norma por su título. También es necesario verificar #[strong su vigencia, alcance y relación con el asunto consultado]. Por ello, el diseño curricular incluye expresamente como saber de proceso la verificación de la vigencia de la información institucional. 
 
     .row.justify-content-center.z-2.mb-5
       .col-xl-10
         .bg-terciario-t5.p-4.rounded-4
-          p.mb-0 Para ampliar: este otro video Historia del SENA, que hace parte de la inducción de los aprendices es un documento audiovisual histórico que le permitirá reconocer cómo se presentaban la organización, los objetivos y el funcionamiento del SENA en un momento de su evolución institucional. Recuerde que la estructura y la normativa mencionadas corresponden a su contexto de producción y deben contrastarse con las disposiciones vigentes. 
+          p.mb-0 Para ampliar: este otro video Historia del SENA, que hace parte de la inducción de los aprendices, es un documento audiovisual histórico que le permitirá reconocer cómo se presentaban la organización, los objetivos y el funcionamiento del SENA en un momento de su evolución institucional. Recuerde que la estructura y la normativa mencionadas corresponden a su contexto de producción y deben contrastarse con las disposiciones vigentes. 
 
     figure
       .video.mb-2
@@ -247,7 +247,7 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/tema3/13.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Gestionar información institucional implica reconocer que no toda la información tiene las mismas condiciones de acceso, tratamiento o conservación. Antes de comunicar un dato o documento es necesario determinar su naturaleza, identificar la fuente responsable y aplicar los protocolos correspondientes. 
+        p.mb-0 Gestionar información institucional implica reconocer que no toda la información tiene las mismas condiciones de acceso, tratamiento o conservación. Antes de comunicar un dato o documento, es necesario determinar su naturaleza, identificar la fuente responsable y aplicar los protocolos correspondientes. 
 
     p.mb-4.z-2 En términos formativos, pueden considerarse cuatro acciones esenciales: 
 
